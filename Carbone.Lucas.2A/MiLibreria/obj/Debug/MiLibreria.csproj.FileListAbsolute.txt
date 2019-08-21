@@ -1,0 +1,5 @@
+D:\VisualStudio\Carbone.Lucas.2A\MiLibreria\bin\Debug\MiLibreria.dll
+D:\VisualStudio\Carbone.Lucas.2A\MiLibreria\bin\Debug\MiLibreria.pdb
+D:\VisualStudio\Carbone.Lucas.2A\MiLibreria\obj\Debug\MiLibreria.csproj.CoreCompileInputs.cache
+D:\VisualStudio\Carbone.Lucas.2A\MiLibreria\obj\Debug\MiLibreria.dll
+D:\VisualStudio\Carbone.Lucas.2A\MiLibreria\obj\Debug\MiLibreria.pdb

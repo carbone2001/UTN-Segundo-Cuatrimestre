@@ -1,0 +1,6 @@
+D:\VisualStudio\Carbone.Lucas.2A\Ejercicio_1\bin\Debug\Ejercicio_1.exe.config
+D:\VisualStudio\Carbone.Lucas.2A\Ejercicio_1\bin\Debug\Ejercicio_1.exe
+D:\VisualStudio\Carbone.Lucas.2A\Ejercicio_1\bin\Debug\Ejercicio_1.pdb
+D:\VisualStudio\Carbone.Lucas.2A\Ejercicio_1\obj\Debug\Ejercicio_1.csproj.CoreCompileInputs.cache
+D:\VisualStudio\Carbone.Lucas.2A\Ejercicio_1\obj\Debug\Ejercicio_1.exe
+D:\VisualStudio\Carbone.Lucas.2A\Ejercicio_1\obj\Debug\Ejercicio_1.pdb

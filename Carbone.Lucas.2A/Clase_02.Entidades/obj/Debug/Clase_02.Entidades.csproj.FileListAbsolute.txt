@@ -1,0 +1,5 @@
+D:\VisualStudio\Carbone.Lucas.2A\Clase_02.Entidades\bin\Debug\Clase_02.Entidades.dll
+D:\VisualStudio\Carbone.Lucas.2A\Clase_02.Entidades\bin\Debug\Clase_02.Entidades.pdb
+D:\VisualStudio\Carbone.Lucas.2A\Clase_02.Entidades\obj\Debug\Clase_02.Entidades.csproj.CoreCompileInputs.cache
+D:\VisualStudio\Carbone.Lucas.2A\Clase_02.Entidades\obj\Debug\Clase_02.Entidades.dll
+D:\VisualStudio\Carbone.Lucas.2A\Clase_02.Entidades\obj\Debug\Clase_02.Entidades.pdb
