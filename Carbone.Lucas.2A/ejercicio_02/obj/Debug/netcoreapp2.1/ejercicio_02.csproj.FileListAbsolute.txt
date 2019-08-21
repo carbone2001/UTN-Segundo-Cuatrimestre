@@ -1,0 +1,11 @@
+D:\Escritorio\UTN-Segundo-Cuatrimestre\Carbone.Lucas.2A\ejercicio_02\bin\Debug\netcoreapp2.1\ejercicio_02.deps.json
+D:\Escritorio\UTN-Segundo-Cuatrimestre\Carbone.Lucas.2A\ejercicio_02\bin\Debug\netcoreapp2.1\ejercicio_02.runtimeconfig.json
+D:\Escritorio\UTN-Segundo-Cuatrimestre\Carbone.Lucas.2A\ejercicio_02\bin\Debug\netcoreapp2.1\ejercicio_02.runtimeconfig.dev.json
+D:\Escritorio\UTN-Segundo-Cuatrimestre\Carbone.Lucas.2A\ejercicio_02\bin\Debug\netcoreapp2.1\ejercicio_02.dll
+D:\Escritorio\UTN-Segundo-Cuatrimestre\Carbone.Lucas.2A\ejercicio_02\bin\Debug\netcoreapp2.1\ejercicio_02.pdb
+D:\Escritorio\UTN-Segundo-Cuatrimestre\Carbone.Lucas.2A\ejercicio_02\obj\Debug\netcoreapp2.1\ejercicio_02.csprojAssemblyReference.cache
+D:\Escritorio\UTN-Segundo-Cuatrimestre\Carbone.Lucas.2A\ejercicio_02\obj\Debug\netcoreapp2.1\ejercicio_02.csproj.CoreCompileInputs.cache
+D:\Escritorio\UTN-Segundo-Cuatrimestre\Carbone.Lucas.2A\ejercicio_02\obj\Debug\netcoreapp2.1\ejercicio_02.AssemblyInfoInputs.cache
+D:\Escritorio\UTN-Segundo-Cuatrimestre\Carbone.Lucas.2A\ejercicio_02\obj\Debug\netcoreapp2.1\ejercicio_02.AssemblyInfo.cs
+D:\Escritorio\UTN-Segundo-Cuatrimestre\Carbone.Lucas.2A\ejercicio_02\obj\Debug\netcoreapp2.1\ejercicio_02.dll
+D:\Escritorio\UTN-Segundo-Cuatrimestre\Carbone.Lucas.2A\ejercicio_02\obj\Debug\netcoreapp2.1\ejercicio_02.pdb

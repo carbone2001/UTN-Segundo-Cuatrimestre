@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace ejercicio_01
 {
@@ -22,33 +18,33 @@ namespace ejercicio_01
             localidad = Console.ReadLine();
             Console.WriteLine("Localidad: {0}", localidad);
             Console.ReadLine();*/
-            int minimo=0;
-            int maximo=0;
+            int minimo = 0;
+            int maximo = 0;
             int input;
-            int suma=0;
+            int suma = 0;
             float promedio;
             int i;
             Console.Write("Ingrese 5 numeros: \n");
-            for (i=0;i<5;i++)
+            for (i = 0; i < 5; i++)
             {
-                Console.Write("Numero {0}: ", i+1);
+                Console.Write("Numero {0}: ", i + 1);
                 input = int.Parse(Console.ReadLine());
-                if(i==0)
+                if (i == 0)
                 {
                     minimo = input;
                     maximo = input;
                 }
-                else if(input>maximo)
+                else if (input > maximo)
                 {
                     maximo = input;
                 }
-                else if(input<minimo)
+                else if (input < minimo)
                 {
                     minimo = input;
                 }
                 suma = suma + input;
             }
-            promedio = (float) suma / i;
+            promedio = (float)suma / i;
             Console.Write("\n\nPromedio: {0} \nMaximo: {1} \nMinimo: {2}", promedio, maximo, minimo);
             Console.ReadLine();
         }
