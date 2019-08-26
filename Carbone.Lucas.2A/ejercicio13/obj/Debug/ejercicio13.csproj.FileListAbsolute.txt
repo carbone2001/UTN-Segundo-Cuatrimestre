@@ -1,0 +1,10 @@
+D:\Escritorio\UTN-Segundo-Cuatrimestre\Carbone.Lucas.2A\ejercicio13\bin\Debug\ejercicio13.exe.config
+D:\Escritorio\UTN-Segundo-Cuatrimestre\Carbone.Lucas.2A\ejercicio13\bin\Debug\ejercicio13.exe
+D:\Escritorio\UTN-Segundo-Cuatrimestre\Carbone.Lucas.2A\ejercicio13\bin\Debug\ejercicio13.pdb
+D:\Escritorio\UTN-Segundo-Cuatrimestre\Carbone.Lucas.2A\ejercicio13\bin\Debug\LibreriaEjercicios.dll
+D:\Escritorio\UTN-Segundo-Cuatrimestre\Carbone.Lucas.2A\ejercicio13\bin\Debug\LibreriaEjercicios.pdb
+D:\Escritorio\UTN-Segundo-Cuatrimestre\Carbone.Lucas.2A\ejercicio13\obj\Debug\ejercicio13.csprojAssemblyReference.cache
+D:\Escritorio\UTN-Segundo-Cuatrimestre\Carbone.Lucas.2A\ejercicio13\obj\Debug\ejercicio13.csproj.CoreCompileInputs.cache
+D:\Escritorio\UTN-Segundo-Cuatrimestre\Carbone.Lucas.2A\ejercicio13\obj\Debug\ejercicio13.csproj.CopyComplete
+D:\Escritorio\UTN-Segundo-Cuatrimestre\Carbone.Lucas.2A\ejercicio13\obj\Debug\ejercicio13.exe
+D:\Escritorio\UTN-Segundo-Cuatrimestre\Carbone.Lucas.2A\ejercicio13\obj\Debug\ejercicio13.pdb

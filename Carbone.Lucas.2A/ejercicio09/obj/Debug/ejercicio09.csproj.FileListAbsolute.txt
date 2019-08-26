@@ -1,0 +1,7 @@
+D:\Escritorio\UTN-Segundo-Cuatrimestre\Carbone.Lucas.2A\ejercicio09\bin\Debug\ejercicio09.exe.config
+D:\Escritorio\UTN-Segundo-Cuatrimestre\Carbone.Lucas.2A\ejercicio09\bin\Debug\ejercicio09.exe
+D:\Escritorio\UTN-Segundo-Cuatrimestre\Carbone.Lucas.2A\ejercicio09\bin\Debug\ejercicio09.pdb
+D:\Escritorio\UTN-Segundo-Cuatrimestre\Carbone.Lucas.2A\ejercicio09\obj\Debug\ejercicio09.csprojAssemblyReference.cache
+D:\Escritorio\UTN-Segundo-Cuatrimestre\Carbone.Lucas.2A\ejercicio09\obj\Debug\ejercicio09.csproj.CoreCompileInputs.cache
+D:\Escritorio\UTN-Segundo-Cuatrimestre\Carbone.Lucas.2A\ejercicio09\obj\Debug\ejercicio09.exe
+D:\Escritorio\UTN-Segundo-Cuatrimestre\Carbone.Lucas.2A\ejercicio09\obj\Debug\ejercicio09.pdb

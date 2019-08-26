@@ -10,3 +10,15 @@ D:\VisualStudio\Carbone.Lucas.2A\clase_02\bin\Debug\Clase_02.Entidades.pdb
 D:\VisualStudio\Carbone.Lucas.2A\clase_02\bin\Debug\MiLibreria.pdb
 D:\VisualStudio\Carbone.Lucas.2A\clase_02\obj\Debug\clase_02.csprojAssemblyReference.cache
 D:\VisualStudio\Carbone.Lucas.2A\clase_02\obj\Debug\clase_02.csproj.CopyComplete
+D:\Escritorio\UTN-Segundo-Cuatrimestre\Carbone.Lucas.2A\clase_02\bin\Debug\clase_02.exe.config
+D:\Escritorio\UTN-Segundo-Cuatrimestre\Carbone.Lucas.2A\clase_02\bin\Debug\clase_02.exe
+D:\Escritorio\UTN-Segundo-Cuatrimestre\Carbone.Lucas.2A\clase_02\bin\Debug\clase_02.pdb
+D:\Escritorio\UTN-Segundo-Cuatrimestre\Carbone.Lucas.2A\clase_02\bin\Debug\Clase_02.Entidades.dll
+D:\Escritorio\UTN-Segundo-Cuatrimestre\Carbone.Lucas.2A\clase_02\bin\Debug\MiLibreria.dll
+D:\Escritorio\UTN-Segundo-Cuatrimestre\Carbone.Lucas.2A\clase_02\bin\Debug\Clase_02.Entidades.pdb
+D:\Escritorio\UTN-Segundo-Cuatrimestre\Carbone.Lucas.2A\clase_02\bin\Debug\MiLibreria.pdb
+D:\Escritorio\UTN-Segundo-Cuatrimestre\Carbone.Lucas.2A\clase_02\obj\Debug\clase_02.csprojAssemblyReference.cache
+D:\Escritorio\UTN-Segundo-Cuatrimestre\Carbone.Lucas.2A\clase_02\obj\Debug\clase_02.csproj.CoreCompileInputs.cache
+D:\Escritorio\UTN-Segundo-Cuatrimestre\Carbone.Lucas.2A\clase_02\obj\Debug\clase_02.csproj.CopyComplete
+D:\Escritorio\UTN-Segundo-Cuatrimestre\Carbone.Lucas.2A\clase_02\obj\Debug\clase_02.exe
+D:\Escritorio\UTN-Segundo-Cuatrimestre\Carbone.Lucas.2A\clase_02\obj\Debug\clase_02.pdb

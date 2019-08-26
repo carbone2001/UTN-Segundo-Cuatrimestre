@@ -1,6 +1,0 @@
-D:\VisualStudio\Carbone.Lucas.2A\ejercicio_08\bin\Debug\ejercicio_08.exe.config
-D:\VisualStudio\Carbone.Lucas.2A\ejercicio_08\bin\Debug\ejercicio_08.exe
-D:\VisualStudio\Carbone.Lucas.2A\ejercicio_08\bin\Debug\ejercicio_08.pdb
-D:\VisualStudio\Carbone.Lucas.2A\ejercicio_08\obj\Debug\ejercicio_08.csproj.CoreCompileInputs.cache
-D:\VisualStudio\Carbone.Lucas.2A\ejercicio_08\obj\Debug\ejercicio_08.exe
-D:\VisualStudio\Carbone.Lucas.2A\ejercicio_08\obj\Debug\ejercicio_08.pdb

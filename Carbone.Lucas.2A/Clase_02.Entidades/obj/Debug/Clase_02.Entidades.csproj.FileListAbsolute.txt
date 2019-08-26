@@ -3,3 +3,9 @@ D:\VisualStudio\Carbone.Lucas.2A\Clase_02.Entidades\bin\Debug\Clase_02.Entidades
 D:\VisualStudio\Carbone.Lucas.2A\Clase_02.Entidades\obj\Debug\Clase_02.Entidades.csproj.CoreCompileInputs.cache
 D:\VisualStudio\Carbone.Lucas.2A\Clase_02.Entidades\obj\Debug\Clase_02.Entidades.dll
 D:\VisualStudio\Carbone.Lucas.2A\Clase_02.Entidades\obj\Debug\Clase_02.Entidades.pdb
+D:\Escritorio\UTN-Segundo-Cuatrimestre\Carbone.Lucas.2A\Clase_02.Entidades\bin\Debug\Clase_02.Entidades.dll
+D:\Escritorio\UTN-Segundo-Cuatrimestre\Carbone.Lucas.2A\Clase_02.Entidades\bin\Debug\Clase_02.Entidades.pdb
+D:\Escritorio\UTN-Segundo-Cuatrimestre\Carbone.Lucas.2A\Clase_02.Entidades\obj\Debug\Clase_02.Entidades.csprojAssemblyReference.cache
+D:\Escritorio\UTN-Segundo-Cuatrimestre\Carbone.Lucas.2A\Clase_02.Entidades\obj\Debug\Clase_02.Entidades.csproj.CoreCompileInputs.cache
+D:\Escritorio\UTN-Segundo-Cuatrimestre\Carbone.Lucas.2A\Clase_02.Entidades\obj\Debug\Clase_02.Entidades.dll
+D:\Escritorio\UTN-Segundo-Cuatrimestre\Carbone.Lucas.2A\Clase_02.Entidades\obj\Debug\Clase_02.Entidades.pdb

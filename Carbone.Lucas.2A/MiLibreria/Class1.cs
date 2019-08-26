@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace MiLibreria
+﻿namespace MiLibreria
 {
     public class MiClase
     {
@@ -9,7 +7,5 @@ namespace MiLibreria
         {
             return MiClase.nombre;
         }
-
-
     }
 }

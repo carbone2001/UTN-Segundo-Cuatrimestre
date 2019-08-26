@@ -1,10 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using MiLibreria;
-using Clase_02.Entidades;
+﻿using Clase_02.Entidades;
+using System;
 
 namespace clase_02
 {
@@ -36,10 +31,10 @@ namespace clase_02
 
 
             Console.ReadLine();*/
-            ConsoleColor color;
+            int color;
             string msj;
 
-            
+
             Sello.mensaje = "Hola mundo";
             msj = (Sello.Imprimir());
             Sello.Borrar();
@@ -52,8 +47,8 @@ namespace clase_02
 
 
             Console.Write("Ingrese numero para cambiar color: ");
-            color = (ConsoleColor)(int.Parse(Console.ReadLine()));
-            Sello.color = color;
+            color = (int.Parse(Console.ReadLine()));
+            Sello.color = (ConsoleColor)color;
             Sello.ImprimirEnColor();
 
 

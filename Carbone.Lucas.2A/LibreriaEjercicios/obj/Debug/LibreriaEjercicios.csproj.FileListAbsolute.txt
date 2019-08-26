@@ -1,0 +1,12 @@
+D:\Escritorio\UTN-Segundo-Cuatrimestre\Carbone.Lucas.2A\LibreriaEjercicios\bin\Debug\LibreriaEjercicios.dll
+D:\Escritorio\UTN-Segundo-Cuatrimestre\Carbone.Lucas.2A\LibreriaEjercicios\bin\Debug\LibreriaEjercicios.pdb
+D:\Escritorio\UTN-Segundo-Cuatrimestre\Carbone.Lucas.2A\LibreriaEjercicios\obj\Debug\LibreriaEjercicios.csproj.CoreCompileInputs.cache
+D:\Escritorio\UTN-Segundo-Cuatrimestre\Carbone.Lucas.2A\LibreriaEjercicios\obj\Debug\LibreriaEjercicios.dll
+D:\Escritorio\UTN-Segundo-Cuatrimestre\Carbone.Lucas.2A\LibreriaEjercicios\obj\Debug\LibreriaEjercicios.pdb
+D:\Escritorio\UTN-Segundo-Cuatrimestre\Carbone.Lucas.2A\LibreriaEjercicios\obj\Debug\LibreriaEjercicios.csprojAssemblyReference.cache
+C:\Users\Lucas\Escritorio En SSD\UTN-Segundo-Cuatrimestre\Carbone.Lucas.2A\LibreriaEjercicios\bin\Debug\LibreriaEjercicios.dll
+C:\Users\Lucas\Escritorio En SSD\UTN-Segundo-Cuatrimestre\Carbone.Lucas.2A\LibreriaEjercicios\bin\Debug\LibreriaEjercicios.pdb
+C:\Users\Lucas\Escritorio En SSD\UTN-Segundo-Cuatrimestre\Carbone.Lucas.2A\LibreriaEjercicios\obj\Debug\LibreriaEjercicios.csprojAssemblyReference.cache
+C:\Users\Lucas\Escritorio En SSD\UTN-Segundo-Cuatrimestre\Carbone.Lucas.2A\LibreriaEjercicios\obj\Debug\LibreriaEjercicios.csproj.CoreCompileInputs.cache
+C:\Users\Lucas\Escritorio En SSD\UTN-Segundo-Cuatrimestre\Carbone.Lucas.2A\LibreriaEjercicios\obj\Debug\LibreriaEjercicios.dll
+C:\Users\Lucas\Escritorio En SSD\UTN-Segundo-Cuatrimestre\Carbone.Lucas.2A\LibreriaEjercicios\obj\Debug\LibreriaEjercicios.pdb
