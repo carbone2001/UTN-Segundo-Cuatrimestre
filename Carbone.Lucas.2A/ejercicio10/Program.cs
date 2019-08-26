@@ -25,7 +25,7 @@ namespace ejercicio10
                 //Calculador de espacio
                 for (int i = 0; i < escalones; i++)
                 {
-                    if(i==0)
+                    if (i == 0)
                     {
                         cantidadEspacios++;
                         continue;
@@ -43,12 +43,12 @@ namespace ejercicio10
                         cantidadEspaciosAntes = cantidadEspacios / 2 - (escalonesHechos - 1);
                         asteriscos += "*";
                         //Llenamos la variable espacios de... si... espacios...
-                        for(int j=0;j<cantidadEspaciosAntes;j++)
+                        for (int j = 0; j < cantidadEspaciosAntes; j++)
                         {
                             espacios += " ";
                         }
                         //colocamos el asterisco entre los dos espacios
-                        Console.WriteLine(espacios+asteriscos+espacios);
+                        Console.WriteLine(espacios + asteriscos + espacios);
                         escalonesHechos++;
                         continue;
                     }

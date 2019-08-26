@@ -1,9 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using LibreriaEjercicios;
+﻿using LibreriaEjercicios;
+using System;
 
 namespace ejercicio15
 {
@@ -29,7 +25,7 @@ namespace ejercicio15
                 Console.Write("Desea seguir haciendo cuentas?(s/n): ");
                 opcion = char.Parse(Console.ReadLine());
             } while (opcion == 's');
-            
+
 
         }
     }

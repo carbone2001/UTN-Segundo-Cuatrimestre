@@ -1,9 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using LibreriaEjercicios;
+﻿using LibreriaEjercicios;
+using System;
 
 namespace ejercicio12
 {
@@ -20,9 +16,9 @@ namespace ejercicio12
                 numero = double.Parse(Console.ReadLine());
                 suma += numero;
                 Console.Write("¿Continuar ? (S / N)");
-                
+
             } while (ValidarRespuesta.ValidaS_N(char.Parse(Console.ReadLine())));
-            Console.Write("El resultado de la suma es {0}",suma);
+            Console.Write("El resultado de la suma es {0}", suma);
             Console.ReadLine();
         }
     }

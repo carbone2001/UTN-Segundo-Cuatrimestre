@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace LibreriaEjercicios
 {
@@ -11,7 +7,7 @@ namespace LibreriaEjercicios
         public static bool Validar(int valor, int min, int max)
         {
             bool validacion = true;
-            if(valor>max || valor < min)
+            if (valor > max || valor < min)
             {
                 validacion = false;
             }
@@ -23,7 +19,7 @@ namespace LibreriaEjercicios
         public static bool ValidaS_N(char c)
         {
             bool respuesta = true;
-            if(c != 's')
+            if (c != 's')
             {
                 respuesta = false;
             }
@@ -32,12 +28,12 @@ namespace LibreriaEjercicios
     }
     public class Conversor
     {
-        
+
         public static string DecimalBinario(double input)
         {
             int entradaAux = (int)(input);
             double decimales;
-            int contador=0;
+            int contador = 0;
             double decimalReferencia;
             int resto;
             string respuesta = "";
@@ -47,7 +43,7 @@ namespace LibreriaEjercicios
             {
                 resto = entradaAux % 2;
                 entradaAux = entradaAux / 2;
-                if(resto==1)
+                if (resto == 1)
                 {
                     respuesta = "1" + respuesta;//Los nuevo numeros deben ir por detras de los antiguos
                 }
@@ -55,15 +51,15 @@ namespace LibreriaEjercicios
                 {
                     respuesta = "0" + respuesta;//Los nuevo numeros deben ir por detras de los antiguos
                 }
-                
+
             }
-            if(decimales>1)
+            if (decimales > 1)
             {
                 decimalReferencia = decimales - 1;
                 respuesta = respuesta + ".";
 
             }
-            else if(decimales == 0)
+            else if (decimales == 0)
             {
                 decimalReferencia = decimales;
                 respuesta = respuesta + ".0";
@@ -74,9 +70,9 @@ namespace LibreriaEjercicios
                 respuesta = respuesta + ".";
             }
 
-            while ((decimalReferencia > 0) && contador<20)
+            while ((decimalReferencia > 0) && contador < 20)
             {
-                
+
                 decimales = decimales * 2;
 
                 if (decimales >= 1)
@@ -88,12 +84,12 @@ namespace LibreriaEjercicios
                 {
                     respuestaDecimales = respuestaDecimales + "0";
                 }
-                if(decimales == decimalReferencia || decimales == 0)
+                if (decimales == decimalReferencia || decimales == 0)
                 {
                     break;
                 }
                 contador++;
-            } 
+            }
             respuesta = respuesta + respuestaDecimales;
             return respuesta;
         }
@@ -101,10 +97,10 @@ namespace LibreriaEjercicios
         {
             double entradaDouble = double.Parse(input);
             int entradaInt = (int)entradaDouble;
-            int suma=0;
+            int suma = 0;
             int decimalExponenciado;
             int isAOne;
-            for(int i=input.Length-3;i>=0;i--)
+            for (int i = input.Length - 3; i >= 0; i--)
             {
                 decimalExponenciado = (int)(Math.Pow(10, i));
                 isAOne = (entradaInt - decimalExponenciado);
@@ -129,13 +125,13 @@ namespace LibreriaEjercicios
         public static double CalcularTriangulo(double baseT, double altura)
         {
             double resultado;
-            resultado = (baseT*altura)/2;
+            resultado = (baseT * altura) / 2;
             return resultado;
         }
         public static double CalcularCirculo(double radio)
         {
             double resultado;
-            resultado = Math.PI * Math.Pow(radio,2);
+            resultado = Math.PI * Math.Pow(radio, 2);
             return resultado;
         }
     }
@@ -153,12 +149,12 @@ namespace LibreriaEjercicios
                 return true;
             }
         }
-        public static double Calcular(double num1,double num2,char signo)
+        public static double Calcular(double num1, double num2, char signo)
         {
-            double resultado=0;
+            double resultado = 0;
             switch (signo)
             {
-                
+
                 case '+':
                     resultado = num1 + num2;
                     break;
@@ -166,9 +162,9 @@ namespace LibreriaEjercicios
                     resultado = num1 - num2;
                     break;
                 case '/':
-                    if(Validar.Division(num2))
+                    if (Validar.Division(num2))
                     {
-                        resultado = num1/num2;
+                        resultado = num1 / num2;
                     }
                     else
                     {
@@ -188,7 +184,7 @@ namespace LibreriaEjercicios
 
             return resultado;
         }
-        
+
     }
-    
+
 }
