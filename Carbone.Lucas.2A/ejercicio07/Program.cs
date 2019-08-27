@@ -146,7 +146,7 @@ namespace ejercicio_07
 
                 for (int i = anio + 1; i < DateTime.Now.Year; i++)//Contemplamos los anios que hay entre la ingresada y la actual sin contar el anio de inicio y el final
                 {
-                    if (DateTime.IsLeapYear(DateTime.Now.Year))
+                    if (DateTime.IsLeapYear(i))
                     {
                         contadorDias = contadorDias + 366;
                     }

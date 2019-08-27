@@ -9,3 +9,4 @@ D:\Escritorio\UTN-Segundo-Cuatrimestre\Carbone.Lucas.2A\MiLibreria\obj\Debug\MiL
 D:\Escritorio\UTN-Segundo-Cuatrimestre\Carbone.Lucas.2A\MiLibreria\obj\Debug\MiLibreria.csproj.CoreCompileInputs.cache
 D:\Escritorio\UTN-Segundo-Cuatrimestre\Carbone.Lucas.2A\MiLibreria\obj\Debug\MiLibreria.dll
 D:\Escritorio\UTN-Segundo-Cuatrimestre\Carbone.Lucas.2A\MiLibreria\obj\Debug\MiLibreria.pdb
+D:\VisualStudio\Carbone.Lucas.2A\MiLibreria\obj\Debug\MiLibreria.csprojAssemblyReference.cache

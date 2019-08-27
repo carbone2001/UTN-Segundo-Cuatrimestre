@@ -1,0 +1,7 @@
+D:\VisualStudio\Carbone.Lucas.2A\Clase03\bin\Debug\Clase03.exe.config
+D:\VisualStudio\Carbone.Lucas.2A\Clase03\bin\Debug\Clase03.exe
+D:\VisualStudio\Carbone.Lucas.2A\Clase03\bin\Debug\Clase03.pdb
+D:\VisualStudio\Carbone.Lucas.2A\Clase03\obj\Debug\Clase03.csprojAssemblyReference.cache
+D:\VisualStudio\Carbone.Lucas.2A\Clase03\obj\Debug\Clase03.csproj.CoreCompileInputs.cache
+D:\VisualStudio\Carbone.Lucas.2A\Clase03\obj\Debug\Clase03.exe
+D:\VisualStudio\Carbone.Lucas.2A\Clase03\obj\Debug\Clase03.pdb

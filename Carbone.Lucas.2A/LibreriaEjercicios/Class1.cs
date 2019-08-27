@@ -70,7 +70,7 @@ namespace LibreriaEjercicios
                 respuesta = respuesta + ".";
             }
 
-            while ((decimalReferencia > 0) && contador < 20)
+            while ((decimalReferencia > 0) && contador < 20)//Decimales
             {
 
                 decimales = decimales * 2;
