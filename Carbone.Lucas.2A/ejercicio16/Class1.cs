@@ -8,33 +8,44 @@ namespace ejercicio16
 {
     class Alumno
     {
-        private static byte nota1;
-        private static byte nota2;
-        private static float notaFinal;
-        public static string apellido;
-        public static int legajo;
-        public static string nombre;
+        private byte nota1;
+        private byte nota2;
+        private float notaFinal;
+        public string apellido;
+        public int legajo;
+        public string nombre;
 
-        public static void CalcularFinal()
+        public void CalcularFinal()
         {
-            if(nota1 >= 4 && nota2 >= 4)
+            if(this.nota1 >= 4 && this.nota2 >= 4)
             {
                 Random aleatorio = new Random();
                 notaFinal = (float)(aleatorio.Next(1,10));
             }
             else
             {
-                Alumno.notaFinal = -1;
+                this.notaFinal = -1;
             }
         }
-        public static void Estudiar(byte notaUno, byte notaDos)
+        public void Estudiar(byte notaUno, byte notaDos)
         {
-            Alumno.nota1 = notaUno;
-            Alumno.nota2 = notaDos;
+            this.nota1 = notaUno;
+            this.nota2 = notaDos;
         }
-        /*public static string Mostrar()
+        public string Mostrar()
         {
-            return this.;
-        }*/
+            string msj;
+
+            if(this.notaFinal != -1)
+            {
+                
+                msj = this.notaFinal.ToString();
+            }
+            else
+            {
+                msj = "Alumno desaprobado";
+            }
+            return msj;
+        }
     }
 }

@@ -1,4 +1,4 @@
-﻿using LibreriaEjercicios;
+﻿
 using System;
 
 namespace ejercicio13

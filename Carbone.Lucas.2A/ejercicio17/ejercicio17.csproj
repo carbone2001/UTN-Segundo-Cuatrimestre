@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{33FA7CBC-68EC-4CF0-8FAE-9DB15C2C0670}</ProjectGuid>
+    <ProjectGuid>{BF28891A-445E-4BF7-83C6-E0373E6E2BC2}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>ejercicio13</RootNamespace>
-    <AssemblyName>ejercicio13</AssemblyName>
+    <RootNamespace>ejercicio17</RootNamespace>
+    <AssemblyName>ejercicio17</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,18 +43,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Conversor.cs" />
+    <Compile Include="Boligrafo.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\LibreriaEjercicios\LibreriaEjercicios.csproj">
-      <Project>{854dae36-46e6-4695-b77a-f8c15202f349}</Project>
-      <Name>LibreriaEjercicios</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

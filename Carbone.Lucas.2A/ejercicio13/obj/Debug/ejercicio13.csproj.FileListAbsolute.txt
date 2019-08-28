@@ -8,3 +8,13 @@ D:\Escritorio\UTN-Segundo-Cuatrimestre\Carbone.Lucas.2A\ejercicio13\obj\Debug\ej
 D:\Escritorio\UTN-Segundo-Cuatrimestre\Carbone.Lucas.2A\ejercicio13\obj\Debug\ejercicio13.csproj.CopyComplete
 D:\Escritorio\UTN-Segundo-Cuatrimestre\Carbone.Lucas.2A\ejercicio13\obj\Debug\ejercicio13.exe
 D:\Escritorio\UTN-Segundo-Cuatrimestre\Carbone.Lucas.2A\ejercicio13\obj\Debug\ejercicio13.pdb
+C:\Users\Lucas\Escritorio En SSD\UTN-Segundo-Cuatrimestre\Carbone.Lucas.2A\ejercicio13\bin\Debug\ejercicio13.exe.config
+C:\Users\Lucas\Escritorio En SSD\UTN-Segundo-Cuatrimestre\Carbone.Lucas.2A\ejercicio13\bin\Debug\ejercicio13.exe
+C:\Users\Lucas\Escritorio En SSD\UTN-Segundo-Cuatrimestre\Carbone.Lucas.2A\ejercicio13\bin\Debug\ejercicio13.pdb
+C:\Users\Lucas\Escritorio En SSD\UTN-Segundo-Cuatrimestre\Carbone.Lucas.2A\ejercicio13\bin\Debug\LibreriaEjercicios.dll
+C:\Users\Lucas\Escritorio En SSD\UTN-Segundo-Cuatrimestre\Carbone.Lucas.2A\ejercicio13\bin\Debug\LibreriaEjercicios.pdb
+C:\Users\Lucas\Escritorio En SSD\UTN-Segundo-Cuatrimestre\Carbone.Lucas.2A\ejercicio13\obj\Debug\ejercicio13.csprojAssemblyReference.cache
+C:\Users\Lucas\Escritorio En SSD\UTN-Segundo-Cuatrimestre\Carbone.Lucas.2A\ejercicio13\obj\Debug\ejercicio13.csproj.CoreCompileInputs.cache
+C:\Users\Lucas\Escritorio En SSD\UTN-Segundo-Cuatrimestre\Carbone.Lucas.2A\ejercicio13\obj\Debug\ejercicio13.csproj.CopyComplete
+C:\Users\Lucas\Escritorio En SSD\UTN-Segundo-Cuatrimestre\Carbone.Lucas.2A\ejercicio13\obj\Debug\ejercicio13.exe
+C:\Users\Lucas\Escritorio En SSD\UTN-Segundo-Cuatrimestre\Carbone.Lucas.2A\ejercicio13\obj\Debug\ejercicio13.pdb
