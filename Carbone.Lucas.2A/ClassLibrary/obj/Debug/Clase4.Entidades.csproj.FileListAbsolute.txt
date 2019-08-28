@@ -1,0 +1,6 @@
+C:\Users\alumno\Desktop\UTN-Segundo-Cuatrimestre\Carbone.Lucas.2A\ClassLibrary\bin\Debug\ClassLibrary.dll
+C:\Users\alumno\Desktop\UTN-Segundo-Cuatrimestre\Carbone.Lucas.2A\ClassLibrary\bin\Debug\ClassLibrary.pdb
+C:\Users\alumno\Desktop\UTN-Segundo-Cuatrimestre\Carbone.Lucas.2A\ClassLibrary\obj\Debug\Clase4.Entidades.csproj.CoreCompileInputs.cache
+C:\Users\alumno\Desktop\UTN-Segundo-Cuatrimestre\Carbone.Lucas.2A\ClassLibrary\obj\Debug\ClassLibrary.dll
+C:\Users\alumno\Desktop\UTN-Segundo-Cuatrimestre\Carbone.Lucas.2A\ClassLibrary\obj\Debug\ClassLibrary.pdb
+C:\Users\alumno\Desktop\UTN-Segundo-Cuatrimestre\Carbone.Lucas.2A\ClassLibrary\obj\Debug\Clase4.Entidades.csprojAssemblyReference.cache

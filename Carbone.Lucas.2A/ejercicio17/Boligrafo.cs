@@ -45,18 +45,24 @@ namespace ejercicio17
         {
             bool respuesta;
             string aux="";
-            SetTinta((short)gasto);
-            if(this.tinta == 0)
+            if(gasto > this.GetTinta() )
             {
+                SetTinta((short)gasto);
+                while (this.GetTinta() != 0)
+                {
+                    aux = aux + "*";
+                }
                 respuesta = false;
             }
             else
             {
+                this.SetTinta((short)gasto);
+                for (int i = 0; i < gasto; i++)
+                {
+                    aux = aux + "*";
+                    
+                }
                 respuesta = true;
-            }
-            for(int i=0;i<gasto;i++)
-            {
-                aux = aux + "*";
             }
             dibujo = aux;
             return respuesta;
