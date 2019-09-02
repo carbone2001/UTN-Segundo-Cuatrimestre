@@ -27,7 +27,7 @@ namespace ejercicio17
         }
         private void SetTinta(short tinta)
         {
-            this.tinta += tinta;
+            this.tinta -= tinta;
             if(this.tinta < 0)
             {
                 this.tinta = 0;
@@ -45,23 +45,26 @@ namespace ejercicio17
         {
             bool respuesta;
             string aux="";
+            Console.ForegroundColor = this.color;
             if(gasto > this.GetTinta() )
             {
-                SetTinta((short)gasto);
-                while (this.GetTinta() != 0)
+                
+                for(int i=0;i<this.GetTinta();i++)
                 {
                     aux = aux + "*";
                 }
+                SetTinta((short)gasto);
                 respuesta = false;
             }
             else
             {
-                this.SetTinta((short)gasto);
+                
                 for (int i = 0; i < gasto; i++)
                 {
                     aux = aux + "*";
                     
                 }
+                this.SetTinta((short)gasto);
                 respuesta = true;
             }
             dibujo = aux;
