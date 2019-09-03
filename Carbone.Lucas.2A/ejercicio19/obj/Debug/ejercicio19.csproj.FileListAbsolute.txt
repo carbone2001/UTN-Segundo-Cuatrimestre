@@ -5,3 +5,10 @@ C:\Users\Lucas\Escritorio En SSD\UTN-Segundo-Cuatrimestre\Carbone.Lucas.2A\ejerc
 C:\Users\Lucas\Escritorio En SSD\UTN-Segundo-Cuatrimestre\Carbone.Lucas.2A\ejercicio19\obj\Debug\ejercicio19.csproj.CoreCompileInputs.cache
 C:\Users\Lucas\Escritorio En SSD\UTN-Segundo-Cuatrimestre\Carbone.Lucas.2A\ejercicio19\obj\Debug\ejercicio19.exe
 C:\Users\Lucas\Escritorio En SSD\UTN-Segundo-Cuatrimestre\Carbone.Lucas.2A\ejercicio19\obj\Debug\ejercicio19.pdb
+C:\Users\alumno\Desktop\UTN-Segundo-Cuatrimestre\Carbone.Lucas.2A\ejercicio19\bin\Debug\ejercicio19.exe.config
+C:\Users\alumno\Desktop\UTN-Segundo-Cuatrimestre\Carbone.Lucas.2A\ejercicio19\bin\Debug\ejercicio19.exe
+C:\Users\alumno\Desktop\UTN-Segundo-Cuatrimestre\Carbone.Lucas.2A\ejercicio19\bin\Debug\ejercicio19.pdb
+C:\Users\alumno\Desktop\UTN-Segundo-Cuatrimestre\Carbone.Lucas.2A\ejercicio19\obj\Debug\ejercicio19.csprojAssemblyReference.cache
+C:\Users\alumno\Desktop\UTN-Segundo-Cuatrimestre\Carbone.Lucas.2A\ejercicio19\obj\Debug\ejercicio19.csproj.CoreCompileInputs.cache
+C:\Users\alumno\Desktop\UTN-Segundo-Cuatrimestre\Carbone.Lucas.2A\ejercicio19\obj\Debug\ejercicio19.exe
+C:\Users\alumno\Desktop\UTN-Segundo-Cuatrimestre\Carbone.Lucas.2A\ejercicio19\obj\Debug\ejercicio19.pdb

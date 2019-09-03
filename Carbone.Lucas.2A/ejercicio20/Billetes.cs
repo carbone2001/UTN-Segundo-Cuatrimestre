@@ -123,7 +123,7 @@ namespace Billetes
         {
             return this.cotizRespectoDolar;
         }
-        public static bool operator !=(Dolar d, Euro e)
+        /*public static bool operator !=(Dolar d, Euro e)
         {
             bool rta = false;
             if (d.cantidad != ((double)(e.cotizRespectoDolar * e.cantidad)))
@@ -138,7 +138,7 @@ namespace Billetes
                 rta = true;
             return rta;
         }
-
+        */
         public static explicit operator Euro(Dolar d)
         {
             Euro e = new Euro();
