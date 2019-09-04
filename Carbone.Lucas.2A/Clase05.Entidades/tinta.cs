@@ -45,7 +45,7 @@ namespace Clase05.Entidades
             }
             else 
             {
-                return Object.Equals(x, null);
+                return Object.Equals(x, y);
             }
         }
         public static bool operator !=(Tinta x, Tinta y)
