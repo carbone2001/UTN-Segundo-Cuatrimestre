@@ -1,9 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Clase05.Entidades;
+﻿using Clase05.Entidades;
+using System;
 
 namespace Clase05
 {
@@ -20,15 +16,15 @@ namespace Clase05
             t1 = null;
 
             p1 = null;
-            if(t1 != t2)
-            Console.WriteLine("Ambos son diferentes");
-            if (p1== t1)
+            if (t1 != t2)
+                Console.WriteLine("Ambos son diferentes");
+            if (p1 == t1)
                 Console.WriteLine("Ambos son null");
-            if(p1!=p2)
+            if (p1 != p2)
                 Console.WriteLine("Son distintos");
             if (t2 != t3)
                 Console.WriteLine("Son diferentes");
-            Console.WriteLine("Prueba de casteo. "+(string)t3);
+            Console.WriteLine("Prueba de casteo. " + (string)t3);
             Console.Read();
         }
     }

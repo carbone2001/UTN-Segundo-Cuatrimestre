@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace ejercicio16
 {
@@ -60,7 +56,7 @@ namespace ejercicio16
             a3.Estudiar(nota1, nota2);
             a3.CalcularFinal();
 
-            Console.WriteLine("\nNota final de A1: "+ a1.Mostrar());
+            Console.WriteLine("\nNota final de A1: " + a1.Mostrar());
             Console.WriteLine("Nota final de A2: " + a2.Mostrar());
             Console.WriteLine("Nota final de A3: " + a3.Mostrar());
             Console.ReadLine();

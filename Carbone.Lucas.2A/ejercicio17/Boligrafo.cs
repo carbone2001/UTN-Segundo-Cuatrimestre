@@ -1,14 +1,10 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace ejercicio17
 {
     class Boligrafo
     {
-        const short cantidadTintaMaxima=100;
+        const short cantidadTintaMaxima = 100;
         private ConsoleColor color;
         private short tinta;
 
@@ -28,11 +24,11 @@ namespace ejercicio17
         private void SetTinta(short tinta)
         {
             this.tinta -= tinta;
-            if(this.tinta < 0)
+            if (this.tinta < 0)
             {
                 this.tinta = 0;
             }
-            else if(this.tinta > cantidadTintaMaxima)
+            else if (this.tinta > cantidadTintaMaxima)
             {
                 this.tinta = 100;
             }
@@ -41,15 +37,15 @@ namespace ejercicio17
         {
             SetTinta(100);
         }
-        public bool Pintar(int gasto,out string dibujo)
+        public bool Pintar(int gasto, out string dibujo)
         {
             bool respuesta;
-            string aux="";
+            string aux = "";
             Console.ForegroundColor = this.color;
-            if(gasto > this.GetTinta() )
+            if (gasto > this.GetTinta())
             {
-                
-                for(int i=0;i<this.GetTinta();i++)
+
+                for (int i = 0; i < this.GetTinta(); i++)
                 {
                     aux = aux + "*";
                 }
@@ -58,18 +54,18 @@ namespace ejercicio17
             }
             else
             {
-                
+
                 for (int i = 0; i < gasto; i++)
                 {
                     aux = aux + "*";
-                    
+
                 }
                 this.SetTinta((short)gasto);
                 respuesta = true;
             }
             dibujo = aux;
             return respuesta;
-            
+
         }
 
 

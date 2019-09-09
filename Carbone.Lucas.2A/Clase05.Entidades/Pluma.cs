@@ -1,7 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
-using Clase05.Entidades;
 
 namespace Clase05.Entidades
 {
@@ -17,15 +14,15 @@ namespace Clase05.Entidades
             this._tinta = null;
             this._cantidad = 0;
         }
-        public Pluma(string marca):this()
+        public Pluma(string marca) : this()
         {
             this._marca = marca;
         }
-        public Pluma(string marca,Tinta t):this(marca)
+        public Pluma(string marca, Tinta t) : this(marca)
         {
             this._tinta = t;
         }
-        public Pluma(string marca,Tinta t,int cantidad):this(marca,t)
+        public Pluma(string marca, Tinta t, int cantidad) : this(marca, t)
         {
             this._cantidad = cantidad;
         }
@@ -39,9 +36,9 @@ namespace Clase05.Entidades
         }
 
 
-        public static bool operator ==(Pluma x,Tinta y)
+        public static bool operator ==(Pluma x, Tinta y)
         {
-            if(!Object.Equals(x,null) && ! Object.Equals(y,null))
+            if (!Object.Equals(x, null) && !Object.Equals(y, null))
             {
                 return (x._tinta == y);
             }
@@ -52,12 +49,12 @@ namespace Clase05.Entidades
         }
         public static bool operator !=(Pluma x, Tinta y)
         {
-            return !(x==y);
+            return !(x == y);
         }
-        public static Pluma operator +(Pluma p,Tinta t)
+        public static Pluma operator +(Pluma p, Tinta t)
         {
             Pluma aux = p;
-            if(aux==t)
+            if (aux == t)
                 if (aux._cantidad < 100)
                     aux._cantidad++;
             return aux;

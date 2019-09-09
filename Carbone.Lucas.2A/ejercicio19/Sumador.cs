@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace ejercicio19
+﻿namespace ejercicio19
 {
     public class Sumador
     {
@@ -15,10 +9,10 @@ namespace ejercicio19
         }
         public static bool operator |(Sumador s1, Sumador s2)
         {
-            bool respuesta=false;
+            bool respuesta = false;
             if (s1.cantidadSumas == s2.cantidadSumas)
                 respuesta = true;
-            
+
             return respuesta;
         }
         public static long operator +(Sumador s1, Sumador s2)
@@ -31,11 +25,11 @@ namespace ejercicio19
         {
             this.cantidadSumas = 0;
         }
-        public Sumador(int cantidadSumas):this()
+        public Sumador(int cantidadSumas) : this()
         {
             this.cantidadSumas = cantidadSumas;
         }
-        public long Sumar(long a,long b)
+        public long Sumar(long a, long b)
         {
             long resultado;
             this.cantidadSumas++;

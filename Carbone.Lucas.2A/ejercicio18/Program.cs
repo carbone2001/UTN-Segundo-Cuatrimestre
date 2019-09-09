@@ -1,16 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace ejercicio18
+﻿namespace ejercicio18
 {
     class Program
     {
         static void Main(string[] args)
         {
-            
+
         }
     }
 }
@@ -28,7 +22,7 @@ namespace Geometria
         {
             return this.y;
         }
-        public Punto(int x,int y)
+        public Punto(int x, int y)
         {
             this.x = x;
             this.y = y;
@@ -44,22 +38,22 @@ namespace Geometria
         Punto vertice4;
         public float GetArea()
         {
-            if(this.Area == 0)
+            if (this.Area == 0)
             {
 
             }
-            
+
             return 0;
         }
         public float GetPerimetro()
         {
-            if(this.Perimetro == 0)
+            if (this.Perimetro == 0)
             {
 
             }
             return 0;
         }
-        public Rectangulo(Punto vertice1,Punto vertice3)
+        public Rectangulo(Punto vertice1, Punto vertice3)
         {
             /*int altura;
             int Base;

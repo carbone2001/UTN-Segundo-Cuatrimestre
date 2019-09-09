@@ -1,6 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace Clase06.Entidades
 {
@@ -11,7 +9,7 @@ namespace Clase06.Entidades
         private int cantidad;
 
         //Constructores
-        public Tempera(ConsoleColor color,string marca,int cantidad)
+        public Tempera(ConsoleColor color, string marca, int cantidad)
         {
             this.color = color;
             this.marca = marca;
@@ -19,17 +17,17 @@ namespace Clase06.Entidades
         }
         private string Mostrar()
         {
-            return "\nColor: " + this.color + " Marca: " + this.marca + " Cantidad: " +this.cantidad;
+            return "\nColor: " + this.color + " Marca: " + this.marca + " Cantidad: " + this.cantidad;
         }
         public static implicit operator string(Tempera t)
         {
-            if(!Object.Equals(t,null))
+            if (!Object.Equals(t, null))
                 return t.Mostrar();
             return "\nnull";
         }
-        public static bool operator ==(Tempera x,Tempera y)
+        public static bool operator ==(Tempera x, Tempera y)
         {
-            if ((!Object.Equals(x,null)) && !Object.Equals(y, null) )
+            if ((!Object.Equals(x, null)) && !Object.Equals(y, null))
             {
                 if (x.marca == y.marca && x.color == y.color)
                 {
@@ -46,10 +44,10 @@ namespace Clase06.Entidades
         {
             return !(x == y);
         }
-        public static Tempera operator +(Tempera x,int y)
+        public static Tempera operator +(Tempera x, int y)
         {
-            if(!Object.Equals(x, null))
-            x.cantidad += y;
+            if (!Object.Equals(x, null))
+                x.cantidad += y;
             return x;
         }
         public static Tempera operator +(Tempera x, Tempera y)
@@ -58,6 +56,18 @@ namespace Clase06.Entidades
                 return x + y.cantidad;
             return x;
 
+        }
+        public static Tempera operator -(Tempera x, Tempera y)
+        {
+            if (x == y && (!Object.Equals(x, null) && !Object.Equals(y, null)))
+            {
+                x.cantidad -= y.cantidad;
+                if (x.cantidad <= 0)
+                    x = null;
+                return x;
+            }
+                
+            return x;
         }
 
     }

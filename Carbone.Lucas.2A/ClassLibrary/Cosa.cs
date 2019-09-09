@@ -1,23 +1,21 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace ClassLibrary
 {
-   public class Cosa
+    public class Cosa
     {
         private int entero;
         private string cadena;
         private DateTime fecha;
         public string Mostrar()
         {
-            return this.entero+" - "+this.cadena +" - "+this.fecha+"\n";
+            return this.entero + " - " + this.cadena + " - " + this.fecha + "\n";
         }
-        public  void EstablecerValor(int input)
+        public void EstablecerValor(int input)
         {
             this.entero = input;
         }
-        public  void EstablecerValor(string input)
+        public void EstablecerValor(string input)
         {
             this.cadena = input;
         }
@@ -31,7 +29,7 @@ namespace ClassLibrary
             this.cadena = "Sin valor";
             this.fecha = DateTime.Now;
         }
-        public Cosa(string input):this()//Esto invoca a Cosa(). y luego inicializo solo this.cadena
+        public Cosa(string input) : this()//Esto invoca a Cosa(). y luego inicializo solo this.cadena
         {
             //this.entero = -1;
             this.cadena = input;
@@ -43,7 +41,7 @@ namespace ClassLibrary
             //this.cadena = cad;
             this.fecha = dat;
         }
-        public Cosa(string cad, DateTime dat, int ent): this(cad,dat)
+        public Cosa(string cad, DateTime dat, int ent) : this(cad, dat)
         {
             this.entero = ent;
             //this.cadena = cad;

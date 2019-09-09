@@ -1,0 +1,7 @@
+C:\Users\Lucas\Escritorio En SSD\UTN-Segundo-Cuatrimestre\Carbone.Lucas.2A\ejercicio20\bin\Debug\ejercicio20.exe.config
+C:\Users\Lucas\Escritorio En SSD\UTN-Segundo-Cuatrimestre\Carbone.Lucas.2A\ejercicio20\bin\Debug\ejercicio20.exe
+C:\Users\Lucas\Escritorio En SSD\UTN-Segundo-Cuatrimestre\Carbone.Lucas.2A\ejercicio20\bin\Debug\ejercicio20.pdb
+C:\Users\Lucas\Escritorio En SSD\UTN-Segundo-Cuatrimestre\Carbone.Lucas.2A\ejercicio20\obj\Debug\ejercicio20.csprojAssemblyReference.cache
+C:\Users\Lucas\Escritorio En SSD\UTN-Segundo-Cuatrimestre\Carbone.Lucas.2A\ejercicio20\obj\Debug\ejercicio20.csproj.CoreCompileInputs.cache
+C:\Users\Lucas\Escritorio En SSD\UTN-Segundo-Cuatrimestre\Carbone.Lucas.2A\ejercicio20\obj\Debug\ejercicio20.exe
+C:\Users\Lucas\Escritorio En SSD\UTN-Segundo-Cuatrimestre\Carbone.Lucas.2A\ejercicio20\obj\Debug\ejercicio20.pdb

@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace ejercicio16
 {
@@ -17,10 +13,10 @@ namespace ejercicio16
 
         public void CalcularFinal()
         {
-            if(this.nota1 >= 4 && this.nota2 >= 4)
+            if (this.nota1 >= 4 && this.nota2 >= 4)
             {
                 Random aleatorio = new Random();
-                notaFinal = (float)(aleatorio.Next(1,10));
+                notaFinal = (float)(aleatorio.Next(1, 10));
             }
             else
             {
@@ -36,9 +32,9 @@ namespace ejercicio16
         {
             string msj;
 
-            if(this.notaFinal != -1)
+            if (this.notaFinal != -1)
             {
-                
+
                 msj = this.notaFinal.ToString();
             }
             else

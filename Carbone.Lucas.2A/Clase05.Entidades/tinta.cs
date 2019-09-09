@@ -12,7 +12,7 @@ namespace Clase05.Entidades
             this._color = ConsoleColor.Blue;
             this._tipo = ETipoTinta.Comun;
         }
-        public Tinta(ConsoleColor color):this()
+        public Tinta(ConsoleColor color) : this()
         {
             this._color = color;
         }
@@ -25,7 +25,7 @@ namespace Clase05.Entidades
         private string Mostrar()//De instancia
         {
             string respuesta;
-            respuesta = "Color: " + this._color + " Tipo de tinta: " + this._tipo+"\n";
+            respuesta = "Color: " + this._color + " Tipo de tinta: " + this._tipo + "\n";
             return respuesta;
         }
         public static string Mostrar(Tinta t)//De clase
@@ -34,7 +34,7 @@ namespace Clase05.Entidades
         }
 
         //Sobrecarga de operadores
-        public static bool operator ==(Tinta x,Tinta y)
+        public static bool operator ==(Tinta x, Tinta y)
         {
             if (!Object.Equals(x, null) && !Object.Equals(y, null))
             {
@@ -43,7 +43,7 @@ namespace Clase05.Entidades
                 else
                     return false;
             }
-            else 
+            else
             {
                 return Object.Equals(x, y);
             }
