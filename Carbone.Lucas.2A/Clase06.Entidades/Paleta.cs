@@ -25,7 +25,7 @@ namespace Clase06.Entidades
         }
         private string Mostrar()
         {
-            string mensaje = "\nCantidad Maxima de colores: " + this.cantidadMaximaColores;
+            string mensaje = "\nCantidad Maxima de colores: "+this.cantidadMaximaColores + " ";
 
             for (int i = 0; i < this.cantidadMaximaColores; i++)
             {
@@ -73,6 +73,7 @@ namespace Clase06.Entidades
 
             if (p == t)
             {
+                if((p | t) != -1)
                 p.colores[p | t] += t;
             }
             else

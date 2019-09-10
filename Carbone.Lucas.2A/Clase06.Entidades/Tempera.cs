@@ -70,5 +70,6 @@ namespace Clase06.Entidades
             return x;
         }
 
+
     }
 }

@@ -295,7 +295,7 @@
         public static explicit operator Euro(Dolar d)
         {
             Euro e = new Euro();
-            e.cantidad = e.cotizRespectoDolar / d.cantidad;
+            e.cantidad = d.cantidad / e.cotizRespectoDolar ;
             return e;
         }
         public static explicit operator Pesos(Dolar d)
