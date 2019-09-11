@@ -17,13 +17,13 @@ namespace Clase06.Entidades
         }
         private string Mostrar()
         {
-            return "\nColor: " + this.color + " Marca: " + this.marca + " Cantidad: " + this.cantidad;
+            return "\n Color: " + this.color + " Marca: " + this.marca + " Cantidad: " + this.cantidad;
         }
         public static implicit operator string(Tempera t)
         {
             if (!Object.Equals(t, null))
                 return t.Mostrar();
-            return "\nnull";
+            return "\n (NULL)";
         }
         public static bool operator ==(Tempera x, Tempera y)
         {
@@ -66,8 +66,19 @@ namespace Clase06.Entidades
                     x = null;
                 return x;
             }
-                
             return x;
+        }
+        public ConsoleColor GetColor
+        {
+            get { return this.color; }
+        }
+        public string GetMarca
+        {
+            get { return this.marca; }
+        }
+        public int GetCantidad
+        {
+            get { return this.cantidad; }
         }
 
 

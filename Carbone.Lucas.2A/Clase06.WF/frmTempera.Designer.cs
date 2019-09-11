@@ -42,14 +42,14 @@
             // 
             this.txtMarca.Location = new System.Drawing.Point(15, 42);
             this.txtMarca.Name = "txtMarca";
-            this.txtMarca.Size = new System.Drawing.Size(121, 20);
+            this.txtMarca.Size = new System.Drawing.Size(153, 20);
             this.txtMarca.TabIndex = 0;
             // 
             // txtCantidad
             // 
             this.txtCantidad.Location = new System.Drawing.Point(12, 101);
             this.txtCantidad.Name = "txtCantidad";
-            this.txtCantidad.Size = new System.Drawing.Size(121, 20);
+            this.txtCantidad.Size = new System.Drawing.Size(156, 20);
             this.txtCantidad.TabIndex = 2;
             // 
             // label1
@@ -85,7 +85,7 @@
             this.cmbColor.FormattingEnabled = true;
             this.cmbColor.Location = new System.Drawing.Point(15, 160);
             this.cmbColor.Name = "cmbColor";
-            this.cmbColor.Size = new System.Drawing.Size(121, 21);
+            this.cmbColor.Size = new System.Drawing.Size(153, 21);
             this.cmbColor.TabIndex = 6;
             // 
             // btnAceptar
@@ -100,7 +100,7 @@
             // 
             // btnCancelar
             // 
-            this.btnCancelar.Location = new System.Drawing.Point(116, 227);
+            this.btnCancelar.Location = new System.Drawing.Point(93, 227);
             this.btnCancelar.Name = "btnCancelar";
             this.btnCancelar.Size = new System.Drawing.Size(75, 23);
             this.btnCancelar.TabIndex = 8;
@@ -112,7 +112,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(203, 285);
+            this.ClientSize = new System.Drawing.Size(187, 285);
             this.Controls.Add(this.btnCancelar);
             this.Controls.Add(this.btnAceptar);
             this.Controls.Add(this.cmbColor);

@@ -32,6 +32,20 @@ namespace Clase06.WF
             cmbColor.SelectedItem = ConsoleColor.Magenta;
         }
 
+        public frmTempera(Tempera input)
+        {
+
+            InitializeComponent();
+            StartPosition = FormStartPosition.CenterScreen;
+            foreach (ConsoleColor c in Enum.GetValues(typeof(ConsoleColor)))
+            {
+                this.cmbColor.Items.Add(c);
+            }
+            txtMarca.Text = input.GetMarca;
+            txtCantidad.Text = input.GetCantidad.ToString();
+            cmbColor.SelectedItem = input.GetColor;
+        }
+
         private void btnAceptar_Click(object sender, EventArgs e)
         {
             t = new Tempera((ConsoleColor)this.cmbColor.SelectedItem,txtMarca.Text,int.Parse(txtCantidad.Text));

@@ -111,5 +111,10 @@ namespace Clase06.Entidades
             }
             return p;
         }
+        public Tempera this[int indexador]
+        {
+            get { return this.colores[indexador]; }
+            set { this.colores[indexador] = value; }
+        }
     }
 }
