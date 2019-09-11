@@ -41,6 +41,7 @@ namespace Clase06.WF
 
         private void btnCancelar_Click(object sender, EventArgs e)
         {
+            this.DialogResult = DialogResult.Cancel;
             Close();
         }
     }

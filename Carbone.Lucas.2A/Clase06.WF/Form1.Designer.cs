@@ -61,14 +61,14 @@
             this.crearPaletaToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.crearTemperaToolStripMenuItem});
             this.crearPaletaToolStripMenuItem.Name = "crearPaletaToolStripMenuItem";
-            this.crearPaletaToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.crearPaletaToolStripMenuItem.Size = new System.Drawing.Size(137, 22);
             this.crearPaletaToolStripMenuItem.Text = "Crear Paleta";
             this.crearPaletaToolStripMenuItem.Click += new System.EventHandler(this.crearPaletaToolStripMenuItem_Click);
             // 
             // crearTemperaToolStripMenuItem
             // 
             this.crearTemperaToolStripMenuItem.Name = "crearTemperaToolStripMenuItem";
-            this.crearTemperaToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.crearTemperaToolStripMenuItem.Size = new System.Drawing.Size(150, 22);
             this.crearTemperaToolStripMenuItem.Text = "Crear Tempera";
             this.crearTemperaToolStripMenuItem.Click += new System.EventHandler(this.crearTemperaToolStripMenuItem_Click);
             // 
@@ -77,7 +77,7 @@
             this.grbPaleta.Controls.Add(this.lsbPaleta);
             this.grbPaleta.Location = new System.Drawing.Point(260, 58);
             this.grbPaleta.Name = "grbPaleta";
-            this.grbPaleta.Size = new System.Drawing.Size(265, 203);
+            this.grbPaleta.Size = new System.Drawing.Size(528, 239);
             this.grbPaleta.TabIndex = 1;
             this.grbPaleta.TabStop = false;
             this.grbPaleta.Text = "Paleta";
@@ -87,7 +87,7 @@
             this.lsbPaleta.FormattingEnabled = true;
             this.lsbPaleta.Location = new System.Drawing.Point(6, 19);
             this.lsbPaleta.Name = "lsbPaleta";
-            this.lsbPaleta.Size = new System.Drawing.Size(252, 173);
+            this.lsbPaleta.Size = new System.Drawing.Size(516, 212);
             this.lsbPaleta.TabIndex = 0;
             // 
             // Form1
