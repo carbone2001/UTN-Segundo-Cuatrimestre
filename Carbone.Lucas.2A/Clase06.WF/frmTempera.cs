@@ -1,13 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using Clase06.Entidades;
+using System;
 using System.Windows.Forms;
-using Clase06.Entidades;
 namespace Clase06.WF
 {
     public partial class frmTempera : Form
@@ -32,23 +25,9 @@ namespace Clase06.WF
             cmbColor.SelectedItem = ConsoleColor.Magenta;
         }
 
-        public frmTempera(Tempera input)
-        {
-
-            InitializeComponent();
-            StartPosition = FormStartPosition.CenterScreen;
-            foreach (ConsoleColor c in Enum.GetValues(typeof(ConsoleColor)))
-            {
-                this.cmbColor.Items.Add(c);
-            }
-            txtMarca.Text = input.GetMarca;
-            txtCantidad.Text = input.GetCantidad.ToString();
-            cmbColor.SelectedItem = input.GetColor;
-        }
-
         private void btnAceptar_Click(object sender, EventArgs e)
         {
-            t = new Tempera((ConsoleColor)this.cmbColor.SelectedItem,txtMarca.Text,int.Parse(txtCantidad.Text));
+            t = new Tempera((ConsoleColor)this.cmbColor.SelectedItem, txtMarca.Text, int.Parse(txtCantidad.Text));
             MessageBox.Show(t);
             this.DialogResult = DialogResult.OK;
         }

@@ -33,9 +33,6 @@
             this.crearPaletaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.crearTemperaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.grbPaleta = new System.Windows.Forms.GroupBox();
-            this.btnModificar = new System.Windows.Forms.Button();
-            this.btnRestarTempera = new System.Windows.Forms.Button();
-            this.btnSumarTempera = new System.Windows.Forms.Button();
             this.lsbPaleta = new System.Windows.Forms.ListBox();
             this.menuStrip1.SuspendLayout();
             this.grbPaleta.SuspendLayout();
@@ -71,59 +68,26 @@
             // crearTemperaToolStripMenuItem
             // 
             this.crearTemperaToolStripMenuItem.Name = "crearTemperaToolStripMenuItem";
-            this.crearTemperaToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.crearTemperaToolStripMenuItem.Size = new System.Drawing.Size(150, 22);
             this.crearTemperaToolStripMenuItem.Text = "Crear Tempera";
             this.crearTemperaToolStripMenuItem.Click += new System.EventHandler(this.crearTemperaToolStripMenuItem_Click);
             // 
             // grbPaleta
             // 
-            this.grbPaleta.Controls.Add(this.btnModificar);
-            this.grbPaleta.Controls.Add(this.btnRestarTempera);
-            this.grbPaleta.Controls.Add(this.btnSumarTempera);
             this.grbPaleta.Controls.Add(this.lsbPaleta);
-            this.grbPaleta.Location = new System.Drawing.Point(62, 60);
+            this.grbPaleta.Location = new System.Drawing.Point(260, 58);
             this.grbPaleta.Name = "grbPaleta";
-            this.grbPaleta.Size = new System.Drawing.Size(672, 239);
-            this.grbPaleta.TabIndex = 8;
+            this.grbPaleta.Size = new System.Drawing.Size(528, 239);
+            this.grbPaleta.TabIndex = 1;
             this.grbPaleta.TabStop = false;
             this.grbPaleta.Text = "Paleta";
-            // 
-            // btnModificar
-            // 
-            this.btnModificar.Location = new System.Drawing.Point(169, 199);
-            this.btnModificar.Name = "btnModificar";
-            this.btnModificar.Size = new System.Drawing.Size(75, 23);
-            this.btnModificar.TabIndex = 3;
-            this.btnModificar.Text = "Modificar";
-            this.btnModificar.UseVisualStyleBackColor = true;
-            this.btnModificar.Click += new System.EventHandler(this.btnModificar_Click);
-            // 
-            // btnRestarTempera
-            // 
-            this.btnRestarTempera.Location = new System.Drawing.Point(88, 198);
-            this.btnRestarTempera.Name = "btnRestarTempera";
-            this.btnRestarTempera.Size = new System.Drawing.Size(75, 23);
-            this.btnRestarTempera.TabIndex = 2;
-            this.btnRestarTempera.Text = "-";
-            this.btnRestarTempera.UseVisualStyleBackColor = true;
-            this.btnRestarTempera.Click += new System.EventHandler(this.btnRestarTempera_Click);
-            // 
-            // btnSumarTempera
-            // 
-            this.btnSumarTempera.Location = new System.Drawing.Point(7, 199);
-            this.btnSumarTempera.Name = "btnSumarTempera";
-            this.btnSumarTempera.Size = new System.Drawing.Size(75, 23);
-            this.btnSumarTempera.TabIndex = 1;
-            this.btnSumarTempera.Text = "+";
-            this.btnSumarTempera.UseVisualStyleBackColor = true;
-            this.btnSumarTempera.Click += new System.EventHandler(this.btnSumarTempera_Click);
             // 
             // lsbPaleta
             // 
             this.lsbPaleta.FormattingEnabled = true;
             this.lsbPaleta.Location = new System.Drawing.Point(6, 19);
             this.lsbPaleta.Name = "lsbPaleta";
-            this.lsbPaleta.Size = new System.Drawing.Size(660, 173);
+            this.lsbPaleta.Size = new System.Drawing.Size(516, 212);
             this.lsbPaleta.TabIndex = 0;
             // 
             // Form1
@@ -152,9 +116,6 @@
         private System.Windows.Forms.ToolStripMenuItem crearTemperaToolStripMenuItem;
         private System.Windows.Forms.GroupBox grbPaleta;
         private System.Windows.Forms.ListBox lsbPaleta;
-        private System.Windows.Forms.Button btnRestarTempera;
-        private System.Windows.Forms.Button btnSumarTempera;
-        private System.Windows.Forms.Button btnModificar;
     }
 }
 

@@ -1,0 +1,14 @@
+C:\Users\Lucas\Escritorio En SSD\UTN-Segundo-Cuatrimestre\Carbone.Lucas.2A\ejercicio24 (Windows Form)\bin\Debug\ejercicio24 (Windows Form).exe.config
+C:\Users\Lucas\Escritorio En SSD\UTN-Segundo-Cuatrimestre\Carbone.Lucas.2A\ejercicio24 (Windows Form)\bin\Debug\ejercicio24 (Windows Form).exe
+C:\Users\Lucas\Escritorio En SSD\UTN-Segundo-Cuatrimestre\Carbone.Lucas.2A\ejercicio24 (Windows Form)\bin\Debug\ejercicio24 (Windows Form).pdb
+C:\Users\Lucas\Escritorio En SSD\UTN-Segundo-Cuatrimestre\Carbone.Lucas.2A\ejercicio24 (Windows Form)\bin\Debug\Ejercicio21.exe
+C:\Users\Lucas\Escritorio En SSD\UTN-Segundo-Cuatrimestre\Carbone.Lucas.2A\ejercicio24 (Windows Form)\bin\Debug\Ejercicio21.pdb
+C:\Users\Lucas\Escritorio En SSD\UTN-Segundo-Cuatrimestre\Carbone.Lucas.2A\ejercicio24 (Windows Form)\bin\Debug\Ejercicio21.exe.config
+C:\Users\Lucas\Escritorio En SSD\UTN-Segundo-Cuatrimestre\Carbone.Lucas.2A\ejercicio24 (Windows Form)\obj\Debug\ejercicio24 (Windows Form).csprojAssemblyReference.cache
+C:\Users\Lucas\Escritorio En SSD\UTN-Segundo-Cuatrimestre\Carbone.Lucas.2A\ejercicio24 (Windows Form)\obj\Debug\ejercicio24__Windows_Form_.Form1.resources
+C:\Users\Lucas\Escritorio En SSD\UTN-Segundo-Cuatrimestre\Carbone.Lucas.2A\ejercicio24 (Windows Form)\obj\Debug\ejercicio24__Windows_Form_.Properties.Resources.resources
+C:\Users\Lucas\Escritorio En SSD\UTN-Segundo-Cuatrimestre\Carbone.Lucas.2A\ejercicio24 (Windows Form)\obj\Debug\ejercicio24 (Windows Form).csproj.GenerateResource.cache
+C:\Users\Lucas\Escritorio En SSD\UTN-Segundo-Cuatrimestre\Carbone.Lucas.2A\ejercicio24 (Windows Form)\obj\Debug\ejercicio24 (Windows Form).csproj.CoreCompileInputs.cache
+C:\Users\Lucas\Escritorio En SSD\UTN-Segundo-Cuatrimestre\Carbone.Lucas.2A\ejercicio24 (Windows Form)\obj\Debug\ejercicio24 (Windows Form).csproj.CopyComplete
+C:\Users\Lucas\Escritorio En SSD\UTN-Segundo-Cuatrimestre\Carbone.Lucas.2A\ejercicio24 (Windows Form)\obj\Debug\ejercicio24 (Windows Form).exe
+C:\Users\Lucas\Escritorio En SSD\UTN-Segundo-Cuatrimestre\Carbone.Lucas.2A\ejercicio24 (Windows Form)\obj\Debug\ejercicio24 (Windows Form).pdb
