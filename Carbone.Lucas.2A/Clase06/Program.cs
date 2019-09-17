@@ -8,7 +8,7 @@ namespace Clase06
         static void Main(string[] args)
         {
             Paleta a = 3;
-
+            
             Console.Write((string)a);
 
             Console.Read();

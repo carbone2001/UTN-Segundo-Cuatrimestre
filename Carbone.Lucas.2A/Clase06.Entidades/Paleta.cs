@@ -25,7 +25,7 @@ namespace Clase06.Entidades
         }
         private string Mostrar()
         {
-            string mensaje = "\nCantidad Maxima de colores: " + this.cantidadMaximaColores + " ";
+            string mensaje = "\nCantidad Maxima de colores: "+this.cantidadMaximaColores + " ";
 
             for (int i = 0; i < this.cantidadMaximaColores; i++)
             {
@@ -73,8 +73,8 @@ namespace Clase06.Entidades
 
             if (p == t)
             {
-                if ((p | t) != -1)
-                    p.colores[p | t] += t;
+                if((p | t) != -1)
+                p.colores[p | t] += t;
             }
             else
             {
@@ -110,6 +110,11 @@ namespace Clase06.Entidades
                     p.colores[p.ObtenerLugarLibre()] = t;
             }
             return p;
+        }
+        public Tempera this[int indexador]
+        {
+            get { return this.colores[indexador]; }
+            set { this.colores[indexador] = value; }
         }
     }
 }

@@ -25,3 +25,12 @@ C:\Users\Lucas\Escritorio En SSD\UTN-Segundo-Cuatrimestre\Carbone.Lucas.2A\Clase
 C:\Users\Lucas\Escritorio En SSD\UTN-Segundo-Cuatrimestre\Carbone.Lucas.2A\Clase06.Entidades\obj\Debug\netstandard2.0\Clase06.Entidades.AssemblyInfo.cs
 C:\Users\Lucas\Escritorio En SSD\UTN-Segundo-Cuatrimestre\Carbone.Lucas.2A\Clase06.Entidades\obj\Debug\netstandard2.0\Clase06.Entidades.dll
 C:\Users\Lucas\Escritorio En SSD\UTN-Segundo-Cuatrimestre\Carbone.Lucas.2A\Clase06.Entidades\obj\Debug\netstandard2.0\Clase06.Entidades.pdb
+D:\Escritorio\UTN-Segundo-Cuatrimestre\Carbone.Lucas.2A\Clase06.Entidades\bin\Debug\netstandard2.0\Clase06.Entidades.deps.json
+D:\Escritorio\UTN-Segundo-Cuatrimestre\Carbone.Lucas.2A\Clase06.Entidades\bin\Debug\netstandard2.0\Clase06.Entidades.dll
+D:\Escritorio\UTN-Segundo-Cuatrimestre\Carbone.Lucas.2A\Clase06.Entidades\bin\Debug\netstandard2.0\Clase06.Entidades.pdb
+D:\Escritorio\UTN-Segundo-Cuatrimestre\Carbone.Lucas.2A\Clase06.Entidades\obj\Debug\netstandard2.0\Clase06.Entidades.csprojAssemblyReference.cache
+D:\Escritorio\UTN-Segundo-Cuatrimestre\Carbone.Lucas.2A\Clase06.Entidades\obj\Debug\netstandard2.0\Clase06.Entidades.csproj.CoreCompileInputs.cache
+D:\Escritorio\UTN-Segundo-Cuatrimestre\Carbone.Lucas.2A\Clase06.Entidades\obj\Debug\netstandard2.0\Clase06.Entidades.AssemblyInfoInputs.cache
+D:\Escritorio\UTN-Segundo-Cuatrimestre\Carbone.Lucas.2A\Clase06.Entidades\obj\Debug\netstandard2.0\Clase06.Entidades.AssemblyInfo.cs
+D:\Escritorio\UTN-Segundo-Cuatrimestre\Carbone.Lucas.2A\Clase06.Entidades\obj\Debug\netstandard2.0\Clase06.Entidades.dll
+D:\Escritorio\UTN-Segundo-Cuatrimestre\Carbone.Lucas.2A\Clase06.Entidades\obj\Debug\netstandard2.0\Clase06.Entidades.pdb

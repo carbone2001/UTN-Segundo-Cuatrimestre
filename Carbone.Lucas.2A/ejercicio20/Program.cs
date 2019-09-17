@@ -7,8 +7,8 @@ namespace ejercicio20
         static void Main(string[] args)
         {
             Dolar d = new Dolar(100, 1);
-            Pesos p = new Pesos(1000, 60);
-            Euro e = new Euro(100, (float)0.91);
+            Pesos p = new Pesos(1000,60);
+            Euro e = new Euro(100,(float)0.91);
 
             Console.WriteLine("Calculos con el dolar\n");
             Console.WriteLine("Dolar(100) mas pesos(1000): {0}", (d + p).cantidad);

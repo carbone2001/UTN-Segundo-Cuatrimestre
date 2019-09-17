@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Lucas\\Escritorio En SSD\\UTN-Segundo-Cuatrimestre\\Carbone.Lucas.2A\\Clase05.Entidades\\Clase05.Entidades.csproj": {}
+    "D:\\Escritorio\\UTN-Segundo-Cuatrimestre\\Carbone.Lucas.2A\\Clase05.Entidades\\Clase05.Entidades.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Lucas\\Escritorio En SSD\\UTN-Segundo-Cuatrimestre\\Carbone.Lucas.2A\\Clase05.Entidades\\Clase05.Entidades.csproj": {
+    "D:\\Escritorio\\UTN-Segundo-Cuatrimestre\\Carbone.Lucas.2A\\Clase05.Entidades\\Clase05.Entidades.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Lucas\\Escritorio En SSD\\UTN-Segundo-Cuatrimestre\\Carbone.Lucas.2A\\Clase05.Entidades\\Clase05.Entidades.csproj",
+        "projectUniqueName": "D:\\Escritorio\\UTN-Segundo-Cuatrimestre\\Carbone.Lucas.2A\\Clase05.Entidades\\Clase05.Entidades.csproj",
         "projectName": "Clase05L",
-        "projectPath": "C:\\Users\\Lucas\\Escritorio En SSD\\UTN-Segundo-Cuatrimestre\\Carbone.Lucas.2A\\Clase05.Entidades\\Clase05.Entidades.csproj",
+        "projectPath": "D:\\Escritorio\\UTN-Segundo-Cuatrimestre\\Carbone.Lucas.2A\\Clase05.Entidades\\Clase05.Entidades.csproj",
         "packagesPath": "C:\\Users\\Lucas\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Lucas\\Escritorio En SSD\\UTN-Segundo-Cuatrimestre\\Carbone.Lucas.2A\\Clase05.Entidades\\obj\\",
+        "outputPath": "D:\\Escritorio\\UTN-Segundo-Cuatrimestre\\Carbone.Lucas.2A\\Clase05.Entidades\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
