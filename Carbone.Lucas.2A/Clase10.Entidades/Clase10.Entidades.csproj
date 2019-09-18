@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Alumno-Alumno_Calificado - 2019__Parte 1.pdf" />
+    <None Remove="Alumno-Alumno_Calificado - 2019__Parte 2.pdf" />
+  </ItemGroup>
+
+</Project>

@@ -80,7 +80,6 @@ namespace Clase06.WF
         {
             frmTempera frm;
             int index;
-            Tempera aux;
             index = this.lsbPaleta.SelectedIndex;
             if(index != -1 && !Object.Equals(this.p[index],null))
             {
