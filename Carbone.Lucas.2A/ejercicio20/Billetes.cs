@@ -134,13 +134,13 @@
         public static explicit operator Dolar(Euro d)
         {
             Dolar e = new Dolar();
-            e.cantidad = d.cantidad*d.cotizRespectoDolar;
+            e.cantidad = d.cantidad * d.cotizRespectoDolar;
             return e;
         }
         public static explicit operator Pesos(Euro d)
         {
             Pesos e = new Pesos();
-            e.cantidad = ((Dolar)d).cantidad*e.cotizRespectoDolar;
+            e.cantidad = ((Dolar)d).cantidad * e.cotizRespectoDolar;
             return e;
         }
         public static implicit operator Euro(double d)
@@ -172,7 +172,7 @@
 
         public static bool operator ==(Euro d, Euro e)
         {
-            
+
             return (d.cantidad == e.cantidad);
 
         }
@@ -251,27 +251,27 @@
         }
         public static bool operator ==(Dolar d, Dolar e)
         {
-            return d==e;
+            return d == e;
 
         }
         public static bool operator !=(Dolar d, Euro e)
         {
-            return !(d==e);
+            return !(d == e);
         }
 
         public static bool operator !=(Dolar d, Pesos e)
         {
-            return !(d==e);
+            return !(d == e);
 
         }
         public static bool operator !=(Dolar d, Dolar e)
         {
-            
-            return !(d==e);
+
+            return !(d == e);
 
         }
 
-        public static Dolar operator +(Dolar d,Euro e)
+        public static Dolar operator +(Dolar d, Euro e)
         {
             d = d.cantidad + ((Dolar)e).cantidad;
             return d;
@@ -295,7 +295,7 @@
         public static explicit operator Euro(Dolar d)
         {
             Euro e = new Euro();
-            e.cantidad = d.cantidad / e.cotizRespectoDolar ;
+            e.cantidad = d.cantidad / e.cotizRespectoDolar;
             return e;
         }
         public static explicit operator Pesos(Dolar d)

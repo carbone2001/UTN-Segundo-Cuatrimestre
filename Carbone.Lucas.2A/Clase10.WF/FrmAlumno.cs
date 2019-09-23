@@ -1,30 +1,43 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using Clase10.Entidades;
+using System;
 using System.Windows.Forms;
 using Clase10.Entidades;
 namespace Clase10.WF
 {
     public partial class FrmAlumno : Form
     {
-        public Alumno alumno;
+        private Alumno alumno;
+
+
         public FrmAlumno()
         {
             InitializeComponent();
-            foreach(ETipoExamen t in ETipoExamen.GetValues(typeof(ETipoExamen)))
+            foreach (ETipoExamen t in ETipoExamen.GetValues(typeof(ETipoExamen)))
             {
                 this.cmbTipoDeExamen.Items.Add(t);
             }
+            this.cmbTipoDeExamen.SelectedItem = ETipoExamen.Final;
+            if(alumno != null)
+            {
+                txtLegajo.Enabled = false;
+            }
         }
-
+        public Alumno GetAlumno
+        {
+            get
+            {
+                return this.alumno;
+            }
+        }
         private void btnAceptar_Click(object sender, EventArgs e)
         {
             alumno = new Alumno(txtNombre.Text, txtApellido.Text, int.Parse(txtLegajo.Text), (ETipoExamen)cmbTipoDeExamen.SelectedItem);
+            this.DialogResult = DialogResult.OK;
+        }
+
+        private void BtnCancelar_Click(object sender, EventArgs e)
+        {
+            this.DialogResult = DialogResult.Cancel;
         }
     }
 }

@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Ejercicio21
 {
@@ -16,7 +12,7 @@ namespace Ejercicio21
         {
             this.temperatura = t;
         }
-        public static Fahrenheit operator +(Fahrenheit f,double d)
+        public static Fahrenheit operator +(Fahrenheit f, double d)
         {
             f.temperatura += d;
             return f;
@@ -58,6 +54,6 @@ namespace Ejercicio21
         {
             return x.temperatura.ToString();
         }
-        
+
     }
 }

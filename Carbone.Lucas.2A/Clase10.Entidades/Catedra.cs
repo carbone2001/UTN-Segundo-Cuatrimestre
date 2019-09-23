@@ -1,5 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 
 namespace Clase10.Entidades
 {
@@ -19,21 +18,25 @@ namespace Clase10.Entidades
         }
         public static bool operator ==(Catedra c, Alumno a)
         {
-            if (c.alumnos.Contains(a))
-                return true;
+            int count = c.Alumnos.Count;
+            for (int i = 0; i < count; i++)
+            {
+                if (c.Alumnos[i] == a)
+                    return true;
+            }
             return false;
         }
         public static bool operator !=(Catedra c, Alumno a)
         {
-            return !(c==a);
+            return !(c == a);
         }
-        public static int operator |(Alumno a,Catedra c)
+        public static int operator |(Alumno a, Catedra c)
         {
             return c.Alumnos.IndexOf(a);
         }
         public static bool operator -(Catedra c, Alumno a)
         {
-            if(c==a)
+            if (c == a)
             {
                 c.Alumnos.RemoveAt(a | c);
                 return true;
@@ -42,13 +45,12 @@ namespace Clase10.Entidades
             {
                 return false;
             }
-            
+
         }
         public static bool operator +(Catedra c, Alumno a)
         {
-            if(c.alumnos.Contains(a))
+            if (c == a)
             {
-                
                 return false;
             }
             else

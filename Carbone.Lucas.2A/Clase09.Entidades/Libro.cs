@@ -1,6 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using System.Collections.Generic;
 
 namespace Clase09.Entidades
 {
@@ -34,7 +32,7 @@ namespace Clase09.Entidades
             get
             {
                 int sumaPaginas = 0;
-                foreach(Capitulo c in this.capitulos)
+                foreach (Capitulo c in this.capitulos)
                 {
                     sumaPaginas += c.Paginas;
                 }
@@ -44,10 +42,10 @@ namespace Clase09.Entidades
         //Indexador
         public Capitulo this[int i]
         {
-            
+
             get
             {
-                if (i < this.capitulos.Count && i>=0)
+                if (i < this.capitulos.Count && i >= 0)
                 {
                     return this.capitulos[i];
                 }
@@ -62,7 +60,7 @@ namespace Clase09.Entidades
                 {
                     this.capitulos.Insert(i, value);
                 }
-                else if(i==this.capitulos.Count)
+                else if (i == this.capitulos.Count)
                 {
                     this.capitulos.Add(value);
                 }

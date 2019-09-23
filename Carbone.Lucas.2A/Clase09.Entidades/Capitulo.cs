@@ -46,13 +46,13 @@ namespace Clase09.Entidades
         public static implicit operator Capitulo(string s)
         {
 
-            Capitulo c = new Capitulo(Capitulo.generadorDeNumeros.Next(1,66), s,Capitulo.generadorDePaginas.Next(15,234) );
+            Capitulo c = new Capitulo(Capitulo.generadorDeNumeros.Next(1, 66), s, Capitulo.generadorDePaginas.Next(15, 234));
             return c;
         }
 
-        public static bool operator == (Capitulo x, Capitulo y)
+        public static bool operator ==(Capitulo x, Capitulo y)
         {
-            if(x.Numero == y.Numero && x.Titulo == y.Titulo)
+            if (x.Numero == y.Numero && x.Titulo == y.Titulo)
             {
                 return true;
             }
@@ -60,7 +60,7 @@ namespace Clase09.Entidades
         }
         public static bool operator !=(Capitulo x, Capitulo y)
         {
-            return !(x==y);
+            return !(x == y);
         }
     }
 }

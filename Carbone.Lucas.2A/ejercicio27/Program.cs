@@ -1,8 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace ejercicio27
 {
@@ -17,7 +14,7 @@ namespace ejercicio27
             int number;
             int countStack;
             int countQueue;
-            for(int i=0; i<20;i++)
+            for (int i = 0; i < 20; i++)
             {
                 number = randomNumber.Next(int.MaxValue);
                 numerosStack.Push(number);
@@ -26,14 +23,14 @@ namespace ejercicio27
             }
             countStack = numerosStack.Count;
             Console.WriteLine("Numeros cargados en Pila: ");
-            for(int i=0;i<countStack;i++)
+            for (int i = 0; i < countStack; i++)
             {
                 Console.WriteLine(" {0} ", numerosStack.Pop());
             }
 
             countQueue = numerosQueue.Count;
             Console.WriteLine("\nNumeros cargados en Cola: ");
-            for(int i = 0; i < countStack; i++)
+            for (int i = 0; i < countStack; i++)
             {
                 Console.WriteLine(" {0} ", numerosQueue.Dequeue());
             }
@@ -44,7 +41,7 @@ namespace ejercicio27
                 Console.WriteLine(" {0} ", numerosList[i]);
             }
             numerosList.Sort();
-            
+
             Console.WriteLine("\nNumeros cargados en Lista (Ordenada Creciente): ");
             for (int i = 0; i < 20; i++)
             {

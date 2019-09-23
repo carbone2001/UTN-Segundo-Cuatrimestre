@@ -24,7 +24,7 @@ namespace Clase10.Entidades
         {
             get { return this.nombre; }
         }
-        public Alumno(string nombre,string apellido,int legajo,ETipoExamen examen)
+        public Alumno(string nombre, string apellido, int legajo, ETipoExamen examen)
         {
             this.nombre = nombre;
             this.apellido = apellido;
@@ -33,18 +33,26 @@ namespace Clase10.Entidades
         }
         public static string Mostrar(Alumno a)
         {
-            return a.Apellido + " - " + a.Nombre + " Legajo: " + a.Legajo + " Examen: " + a.Examen.ToString()+"\n";
+            return "Legajo: " + a.Legajo + " Apellido: " + a.Apellido + " Nombre: " + a.Nombre + " Examen: " + a.Examen.ToString() + "\n";
         }
 
-        public static bool operator ==(Alumno a,Alumno b)
+        public static bool operator ==(Alumno a, Alumno b)
         {
-            if (a.Legajo == b.Legajo)
-                return true;
+            if(!Object.Equals(a,null) && !Object.Equals(b,null))
+            {
+                if (a.Legajo == b.Legajo)
+                    return true;
+            }
+            else
+            {
+                return Object.Equals(a, b);
+            }
+            
             return false;
         }
         public static bool operator !=(Alumno a, Alumno b)
         {
-            return !(a==b);
+            return !(a == b);
         }
 
         public static int OrdenarPorApellidoDesc(Alumno a, Alumno b)
@@ -53,7 +61,7 @@ namespace Clase10.Entidades
         }
         public static int OrdenarPorApellidoAsc(Alumno a, Alumno b)
         {
-            return OrdenarPorApellidoAsc(b,a);
+            return OrdenarPorApellidoDesc(b, a);
         }
         public static int OrdenarPorLegajoDesc(Alumno a, Alumno b)
         {

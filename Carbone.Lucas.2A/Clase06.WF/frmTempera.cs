@@ -1,13 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using Clase06.Entidades;
+using System;
 using System.Windows.Forms;
-using Clase06.Entidades;
 namespace Clase06.WF
 {
     public partial class frmTempera : Form
@@ -48,7 +41,7 @@ namespace Clase06.WF
 
         private void btnAceptar_Click(object sender, EventArgs e)
         {
-            t = new Tempera((ConsoleColor)this.cmbColor.SelectedItem,txtMarca.Text,int.Parse(txtCantidad.Text));
+            t = new Tempera((ConsoleColor)this.cmbColor.SelectedItem, txtMarca.Text, int.Parse(txtCantidad.Text));
             MessageBox.Show(t);
             this.DialogResult = DialogResult.OK;
         }

@@ -1,13 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using Clase06.Entidades;
+using System;
 using System.Windows.Forms;
-using Clase06.Entidades;
 
 namespace Clase06.WF
 {
@@ -30,21 +23,21 @@ namespace Clase06.WF
             frm.StartPosition = FormStartPosition.CenterScreen;
             //frm.Show();
             frm.ShowDialog();
-            if(frm.DialogResult == DialogResult.OK)
+            if (frm.DialogResult == DialogResult.OK)
             {
                 this.lsbPaleta.Items.Clear();
                 this.p += frm.MiTempera;
-                for(int i=0;i<5;i++)
-                this.lsbPaleta.Items.Add((string)this.p[i]);
+                for (int i = 0; i < 5; i++)
+                    this.lsbPaleta.Items.Add((string)this.p[i]);
             }
-            
+
         }
 
         private void crearPaletaToolStripMenuItem_Click(object sender, EventArgs e)
         {
             this.crearPaletaToolStripMenuItem.Enabled = false;
             this.grbPaleta.Visible = true;
-            
+
         }
 
         private void btnSumarTempera_Click(object sender, EventArgs e)
@@ -81,7 +74,7 @@ namespace Clase06.WF
             frmTempera frm;
             int index;
             index = this.lsbPaleta.SelectedIndex;
-            if(index != -1 && !Object.Equals(this.p[index],null))
+            if (index != -1 && !Object.Equals(this.p[index], null))
             {
                 frm = new frmTempera(p[index]);
                 frm.StartPosition = FormStartPosition.CenterScreen;
@@ -94,7 +87,7 @@ namespace Clase06.WF
                         this.lsbPaleta.Items.Add((string)this.p[i]);
                 }
             }
-            
+
 
         }
     }

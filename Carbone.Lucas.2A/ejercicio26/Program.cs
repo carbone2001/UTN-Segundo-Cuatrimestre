@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace ejercicio26
 {
@@ -12,7 +8,7 @@ namespace ejercicio26
         {
             int[] vectorNumeros = new int[20];
             Random random = new Random();
-            for(int i=0;i<20;i++)
+            for (int i = 0; i < 20; i++)
             {
                 do
                 {
@@ -27,11 +23,11 @@ namespace ejercicio26
             //Ordenar decrecientemente
             int aux;
             Console.WriteLine("Ordenado decreciente");
-            for (int i=0; i<20-1;i++)
+            for (int i = 0; i < 20 - 1; i++)
             {
-                for(int j=i+1;j<20;j++)
+                for (int j = i + 1; j < 20; j++)
                 {
-                    if(vectorNumeros[i]<vectorNumeros[j])
+                    if (vectorNumeros[i] < vectorNumeros[j])
                     {
                         aux = vectorNumeros[i];
                         vectorNumeros[i] = vectorNumeros[j];
@@ -47,7 +43,7 @@ namespace ejercicio26
             Console.WriteLine("Ordenado creciente");
             for (int i = 0; i < 20 - 1; i++)
             {
-                for (int j = i+1; j < 20; j++)
+                for (int j = i + 1; j < 20; j++)
                 {
                     if (vectorNumeros[i] > vectorNumeros[j])
                     {

@@ -1,15 +1,11 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Ejercicio21
 {
     public class Kelvin
     {
         public double temperatura;
-        public Kelvin():this(0)
+        public Kelvin() : this(0)
         {
         }
         public Kelvin(double t)
