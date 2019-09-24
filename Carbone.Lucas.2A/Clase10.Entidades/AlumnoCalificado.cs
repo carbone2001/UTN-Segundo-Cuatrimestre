@@ -21,6 +21,10 @@
         {
             return Alumno.Mostrar(this) + " Nota: " + this.nota.ToString();
         }
+        public override string ToString()
+        {
+            return this.Mostrar();
+        }
 
     }
 }

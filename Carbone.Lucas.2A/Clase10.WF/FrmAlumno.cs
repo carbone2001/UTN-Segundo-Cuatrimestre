@@ -6,7 +6,7 @@ namespace Clase10.WF
 {
     public partial class FrmAlumno : Form
     {
-        private Alumno alumno;
+        protected Alumno alumno;
 
 
         public FrmAlumno()
@@ -22,6 +22,15 @@ namespace Clase10.WF
                 txtLegajo.Enabled = false;
             }
         }
+        public FrmAlumno(Alumno a)
+        {
+            this.txtNombre.Text = a.Nombre;
+            this.txtApellido.Text = a.Apellido;
+            this.txtLegajo.Text = a.Legajo.ToString();
+            this.txtLegajo.Enabled = false;
+
+        }
+        
         public Alumno GetAlumno
         {
             get
