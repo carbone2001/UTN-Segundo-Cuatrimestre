@@ -30,8 +30,8 @@
         {
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.crearToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.salirToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.catedraToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.salirToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -54,18 +54,19 @@
             this.crearToolStripMenuItem.Size = new System.Drawing.Size(47, 20);
             this.crearToolStripMenuItem.Text = "Crear";
             // 
+            // catedraToolStripMenuItem
+            // 
+            this.catedraToolStripMenuItem.Name = "catedraToolStripMenuItem";
+            this.catedraToolStripMenuItem.Size = new System.Drawing.Size(115, 22);
+            this.catedraToolStripMenuItem.Text = "Catedra";
+            this.catedraToolStripMenuItem.Click += new System.EventHandler(this.catedraToolStripMenuItem_Click);
+            // 
             // salirToolStripMenuItem
             // 
             this.salirToolStripMenuItem.Name = "salirToolStripMenuItem";
             this.salirToolStripMenuItem.Size = new System.Drawing.Size(41, 20);
             this.salirToolStripMenuItem.Text = "Salir";
-            // 
-            // catedraToolStripMenuItem
-            // 
-            this.catedraToolStripMenuItem.Name = "catedraToolStripMenuItem";
-            this.catedraToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.catedraToolStripMenuItem.Text = "Catedra";
-            this.catedraToolStripMenuItem.Click += new System.EventHandler(this.catedraToolStripMenuItem_Click);
+            this.salirToolStripMenuItem.Click += new System.EventHandler(this.SalirToolStripMenuItem_Click);
             // 
             // FrmPrincipal
             // 

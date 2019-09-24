@@ -43,6 +43,7 @@ namespace Clase10.WF
         private void ActualizarListadoAlumnos()
         {
             this.lsbAlumnos.Items.Clear();
+            this.lsbAlumnosCalificados.Items.Clear();
         }
 
         private void CmbTipoOrden_SelectedIndexChanged(object sender, EventArgs e)
@@ -53,15 +54,19 @@ namespace Clase10.WF
             {
                 case ETipoOrdenamiento.ApellidoAscendente:
                     catedra.Alumnos.Sort(Alumno.OrdenarPorApellidoAsc);
+                    this.alumnosCalificados.Sort(Alumno.OrdenarPorApellidoAsc);
                     break;
                 case ETipoOrdenamiento.ApellidoDescendente:
                     catedra.Alumnos.Sort(Alumno.OrdenarPorApellidoDesc);
+                    this.alumnosCalificados.Sort(Alumno.OrdenarPorApellidoDesc);
                     break;
                 case ETipoOrdenamiento.LegajoAscendente:
                     catedra.Alumnos.Sort(Alumno.OrdenarPorLegajoAsc);
+                    this.alumnosCalificados.Sort(Alumno.OrdenarPorLegajoAsc);
                     break;
                 case ETipoOrdenamiento.LegajoDescendente:
                     catedra.Alumnos.Sort(Alumno.OrdenarPorLegajoDesc);
+                    this.alumnosCalificados.Sort(Alumno.OrdenarPorLegajoDesc);
                     break;
                 default:
                     break;
@@ -69,8 +74,15 @@ namespace Clase10.WF
             count = catedra.Alumnos.Count();
             for (int i = 0; i < count; i++)
             {
-                this.lsbAlumnos.Items.Add(Alumno.Mostrar(catedra.Alumnos[i]));
+                this.lsbAlumnos.Items.Add(Alumno.Mostrar(this.catedra.Alumnos[i]));
             }
+            count = this.alumnosCalificados.Count();
+            for (int i = 0; i < count; i++)
+            {
+                this.lsbAlumnosCalificados.Items.Add(this.alumnosCalificados[i]);
+            }
+
+            
         }
 
         private void BtnCalificar_Click(object sender, EventArgs e)
@@ -82,23 +94,26 @@ namespace Clase10.WF
                 frmAlumnoCalificado.ShowDialog();
                 if (frmAlumnoCalificado.DialogResult == DialogResult.OK)
                 {
-                    this.lsbAlumnosCalificados.Items.Add(frmAlumnoCalificado.alumnoCalificado.Mostrar());
+                    this.alumnosCalificados.Add(frmAlumnoCalificado.alumnoCalificado);
                 }
+                CmbTipoOrden_SelectedIndexChanged(sender, e);
             }
             
         }
 
         private void BtnModificar_Click(object sender, EventArgs e)
         {
-            if (lsbAlumnos.SelectedIndex >= 0 && lsbAlumnos.SelectedIndex < this.catedra.Alumnos.Count)
+            int index = lsbAlumnos.SelectedIndex;
+            if (index >= 0 && index < this.catedra.Alumnos.Count)
             {
-                Alumno calificarAlumno = this.catedra.Alumnos[lsbAlumnos.SelectedIndex];
-                FrmAlumnoCalificado frmAlumnoCalificado = new FrmAlumnoCalificado(calificarAlumno);
-                frmAlumnoCalificado.ShowDialog();
-                if (frmAlumnoCalificado.DialogResult == DialogResult.OK)
+                FrmAlumno alumnoModificado = new FrmAlumno(this.catedra.Alumnos[lsbAlumnos.SelectedIndex]);
+                alumnoModificado.ShowDialog();
+                this.ActualizarListadoAlumnos();
+                if (DialogResult.OK == alumnoModificado.DialogResult)
                 {
-                    this.lsbAlumnosCalificados.Items.Add(frmAlumnoCalificado.alumnoCalificado.Mostrar());
+                    this.catedra.Alumnos[index] = alumnoModificado.GetAlumno;
                 }
+                CmbTipoOrden_SelectedIndexChanged(sender, e);
             }
         }
         public override string ToString()

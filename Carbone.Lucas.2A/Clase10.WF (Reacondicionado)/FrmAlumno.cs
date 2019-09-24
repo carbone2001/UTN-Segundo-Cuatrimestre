@@ -22,7 +22,7 @@ namespace Clase10.WF
                 txtLegajo.Enabled = false;
             }
         }
-        public FrmAlumno(Alumno a)
+        public FrmAlumno(Alumno a):this()
         {
             this.txtNombre.Text = a.Nombre;
             this.txtApellido.Text = a.Apellido;

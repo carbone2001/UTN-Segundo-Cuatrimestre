@@ -41,7 +41,7 @@ namespace Clase10.WF
         }*/
         protected override void btnAceptar_Click(object sender,System.EventArgs e)
         {
-            this.alumnoCalificado = new AlumnoCalificado(base.alumno, double.Parse(this.txtCalificacion.Text));
+            this.alumnoCalificado = new AlumnoCalificado(base.alumno, double.Parse(this.txtNota.Text));
             this.DialogResult = DialogResult.OK;
         }
 

@@ -17,5 +17,10 @@ namespace Clase10.WF
             catedra.MdiParent = this;
             catedra.Show();
         }
+
+        private void SalirToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Close();
+        }
     }
 }

@@ -55,22 +55,22 @@ namespace Clase10.Entidades
             return !(a == b);
         }
 
-        public static int OrdenarPorApellidoDesc(Alumno a, Alumno b)
+        public static int OrdenarPorApellidoAsc(Alumno a, Alumno b)
         {
             return String.Compare(a.Apellido, b.Apellido);
         }
-        public static int OrdenarPorApellidoAsc(Alumno a, Alumno b)
+        public static int OrdenarPorApellidoDesc(Alumno a, Alumno b)
         {
-            return OrdenarPorApellidoDesc(b, a);
+            return OrdenarPorApellidoAsc(b, a);
         }
         public static int OrdenarPorLegajoDesc(Alumno a, Alumno b)
         {
             if (a.Legajo > b.Legajo)
-                return 1;
+                return -1;
             else if (a.Legajo == b.Legajo)
                 return 0;
             else
-                return -1;
+                return 1;
         }
         public static int OrdenarPorLegajoAsc(Alumno a, Alumno b)
         {
