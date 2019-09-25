@@ -91,6 +91,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ejercicio28", "ejercicio28\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clase10.WF (Reacondicionado)", "Clase10.WF (Reacondicionado)\Clase10.WF (Reacondicionado).csproj", "{17C340CC-B64C-464F-8A66-5D59FB7D6806}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clase12.Entidades", "Clase12.Entidades\Clase12.Entidades.csproj", "{47729D3E-4C68-4355-BDFC-DB678BE7BAA3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CentralitaPolimorfismo", "CentralitaPolimorfismo\CentralitaPolimorfismo.csproj", "{B9A552BF-224A-41C3-A70A-1B44AB8B6D15}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -273,6 +277,14 @@ Global
 		{17C340CC-B64C-464F-8A66-5D59FB7D6806}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{17C340CC-B64C-464F-8A66-5D59FB7D6806}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{17C340CC-B64C-464F-8A66-5D59FB7D6806}.Release|Any CPU.Build.0 = Release|Any CPU
+		{47729D3E-4C68-4355-BDFC-DB678BE7BAA3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47729D3E-4C68-4355-BDFC-DB678BE7BAA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47729D3E-4C68-4355-BDFC-DB678BE7BAA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47729D3E-4C68-4355-BDFC-DB678BE7BAA3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9A552BF-224A-41C3-A70A-1B44AB8B6D15}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9A552BF-224A-41C3-A70A-1B44AB8B6D15}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9A552BF-224A-41C3-A70A-1B44AB8B6D15}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9A552BF-224A-41C3-A70A-1B44AB8B6D15}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -15,3 +15,4 @@ C:\Users\Lucas\Escritorio En SSD\UTN-Segundo-Cuatrimestre\Carbone.Lucas.2A\Clase
 C:\Users\Lucas\Escritorio En SSD\UTN-Segundo-Cuatrimestre\Carbone.Lucas.2A\Clase10.Entidades\obj\Debug\netstandard2.0\Clase10.Entidades.dll
 C:\Users\Lucas\Escritorio En SSD\UTN-Segundo-Cuatrimestre\Carbone.Lucas.2A\Clase10.Entidades\obj\Debug\netstandard2.0\Clase10.Entidades.pdb
 C:\Users\Lucas\Escritorio En SSD\UTN-Segundo-Cuatrimestre\Carbone.Lucas.2A\Clase10.Entidades\obj\Debug\netstandard2.0\Clase10.Entidades.csprojAssemblyReference.cache
+C:\Users\alumno\Desktop\UTN-Segundo-Cuatrimestre\Carbone.Lucas.2A\Clase10.Entidades\obj\Debug\netstandard2.0\Clase10.Entidades.csprojAssemblyReference.cache

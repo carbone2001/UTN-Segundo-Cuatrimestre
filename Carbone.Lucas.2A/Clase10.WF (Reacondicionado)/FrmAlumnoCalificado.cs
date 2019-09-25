@@ -25,33 +25,16 @@ namespace Clase10.WF
             this.cmbTipoDeExamen.Enabled = false;
         }
 
-      
-
         private void btnCancelar_Click(object sender, System.EventArgs e)
         {
             this.DialogResult = DialogResult.Cancel;
         }
-
         
-
-        /*private void btnAceptar_Click_1(object sender, System.EventArgs e)
-        {
-            this.alumnoCalificado = new AlumnoCalificado(base.alumno, double.Parse(base.txtCalificacion.Text));
-            this.DialogResult = DialogResult.OK;
-        }*/
         protected override void btnAceptar_Click(object sender,System.EventArgs e)
         {
             this.alumnoCalificado = new AlumnoCalificado(base.alumno, double.Parse(this.txtNota.Text));
             this.DialogResult = DialogResult.OK;
         }
-
-
-        private void btnAceptar_Click_2(object sender, System.EventArgs e)
-        {
-            this.alumnoCalificado = new AlumnoCalificado(base.alumno, double.Parse(txtCalificacion.Text));
-            this.DialogResult = DialogResult.OK;
-        }
-
     
     }
 }

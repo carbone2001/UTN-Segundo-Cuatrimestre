@@ -8,6 +8,7 @@ namespace Clase10.WF
         public FrmPrincipal()
         {
             this.IsMdiContainer = true;
+            this.WindowState = FormWindowState.Maximized;
             InitializeComponent();
         }
 

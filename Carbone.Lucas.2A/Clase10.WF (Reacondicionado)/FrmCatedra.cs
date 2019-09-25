@@ -27,7 +27,6 @@ namespace Clase10.WF
         {
             FrmAlumno nuevoAlumno = new FrmAlumno();
             nuevoAlumno.ShowDialog();
-            this.ActualizarListadoAlumnos();
             if (DialogResult.OK == nuevoAlumno.DialogResult)
             {
 
@@ -42,13 +41,30 @@ namespace Clase10.WF
 
         private void ActualizarListadoAlumnos()
         {
+            int count;
             this.lsbAlumnos.Items.Clear();
+            
+            count = catedra.Alumnos.Count();
+            for (int i = 0; i < count; i++)
+            {
+                this.lsbAlumnos.Items.Add(Alumno.Mostrar(this.catedra.Alumnos[i]));
+            }
+            
+        }
+        private void ActualizarListadoAlumnosCalificados()
+        {
+            int count;
+            count = this.alumnosCalificados.Count();
             this.lsbAlumnosCalificados.Items.Clear();
+            for (int i = 0; i < count; i++)
+            {
+                this.lsbAlumnosCalificados.Items.Add(this.alumnosCalificados[i]);
+            }
         }
 
         private void CmbTipoOrden_SelectedIndexChanged(object sender, EventArgs e)
         {
-            this.ActualizarListadoAlumnos();
+            
             int count;
             switch (this.cmbTipoOrden.SelectedItem)
             {
@@ -71,16 +87,8 @@ namespace Clase10.WF
                 default:
                     break;
             }
-            count = catedra.Alumnos.Count();
-            for (int i = 0; i < count; i++)
-            {
-                this.lsbAlumnos.Items.Add(Alumno.Mostrar(this.catedra.Alumnos[i]));
-            }
-            count = this.alumnosCalificados.Count();
-            for (int i = 0; i < count; i++)
-            {
-                this.lsbAlumnosCalificados.Items.Add(this.alumnosCalificados[i]);
-            }
+            this.ActualizarListadoAlumnos();
+            this.ActualizarListadoAlumnosCalificados();
 
             
         }
@@ -98,7 +106,7 @@ namespace Clase10.WF
                 }
                 CmbTipoOrden_SelectedIndexChanged(sender, e);
             }
-            
+            this.ActualizarListadoAlumnosCalificados();
         }
 
         private void BtnModificar_Click(object sender, EventArgs e)
@@ -116,6 +124,7 @@ namespace Clase10.WF
                 CmbTipoOrden_SelectedIndexChanged(sender, e);
             }
         }
+
         public override string ToString()
         {
             string alumnosCalificados="";

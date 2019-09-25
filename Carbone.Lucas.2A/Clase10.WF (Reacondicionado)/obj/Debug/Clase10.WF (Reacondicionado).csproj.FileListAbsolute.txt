@@ -223,3 +223,4 @@ C:\Users\Lucas\Escritorio En SSD\UTN-Segundo-Cuatrimestre\Carbone.Lucas.2A\Clase
 C:\Users\Lucas\Escritorio En SSD\UTN-Segundo-Cuatrimestre\Carbone.Lucas.2A\Clase10.WF (Reacondicionado)\obj\Debug\Clase10.WF (Reacondicionado).csproj.CopyComplete
 C:\Users\Lucas\Escritorio En SSD\UTN-Segundo-Cuatrimestre\Carbone.Lucas.2A\Clase10.WF (Reacondicionado)\obj\Debug\Clase10.WF (Reacondicionado).exe
 C:\Users\Lucas\Escritorio En SSD\UTN-Segundo-Cuatrimestre\Carbone.Lucas.2A\Clase10.WF (Reacondicionado)\obj\Debug\Clase10.WF (Reacondicionado).pdb
+C:\Users\alumno\Desktop\UTN-Segundo-Cuatrimestre\Carbone.Lucas.2A\Clase10.WF (Reacondicionado)\obj\Debug\Clase10.WF.FrmAlumno.resources
