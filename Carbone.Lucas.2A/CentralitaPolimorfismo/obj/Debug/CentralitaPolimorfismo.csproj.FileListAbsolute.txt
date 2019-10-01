@@ -1,2 +1,8 @@
 C:\Users\alumno\Desktop\UTN-Segundo-Cuatrimestre\Carbone.Lucas.2A\CentralitaPolimorfismo\obj\Debug\CentralitaPolimorfismo.csprojAssemblyReference.cache
 C:\Users\alumno\Desktop\UTN-Segundo-Cuatrimestre\Carbone.Lucas.2A\CentralitaPolimorfismo\obj\Debug\CentralitaPolimorfismo.csproj.CoreCompileInputs.cache
+C:\Users\Lucas\Escritorio En SSD\UTN-Segundo-Cuatrimestre\Carbone.Lucas.2A\CentralitaPolimorfismo\bin\Debug\CentralitaPolimorfismo.exe.config
+C:\Users\Lucas\Escritorio En SSD\UTN-Segundo-Cuatrimestre\Carbone.Lucas.2A\CentralitaPolimorfismo\bin\Debug\CentralitaPolimorfismo.exe
+C:\Users\Lucas\Escritorio En SSD\UTN-Segundo-Cuatrimestre\Carbone.Lucas.2A\CentralitaPolimorfismo\bin\Debug\CentralitaPolimorfismo.pdb
+C:\Users\Lucas\Escritorio En SSD\UTN-Segundo-Cuatrimestre\Carbone.Lucas.2A\CentralitaPolimorfismo\obj\Debug\CentralitaPolimorfismo.csprojAssemblyReference.cache
+C:\Users\Lucas\Escritorio En SSD\UTN-Segundo-Cuatrimestre\Carbone.Lucas.2A\CentralitaPolimorfismo\obj\Debug\CentralitaPolimorfismo.exe
+C:\Users\Lucas\Escritorio En SSD\UTN-Segundo-Cuatrimestre\Carbone.Lucas.2A\CentralitaPolimorfismo\obj\Debug\CentralitaPolimorfismo.pdb

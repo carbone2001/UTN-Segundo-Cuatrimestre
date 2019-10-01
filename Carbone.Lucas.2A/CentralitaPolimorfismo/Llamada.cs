@@ -15,7 +15,7 @@ namespace CentralitaPolimorfismo
         #endregion
 
         #region Propiedades
-        protected abstract float CostoLlamada {get;}
+        public abstract float CostoLlamada {get;}
         public float Duracion
         {
             get { return this._duracion; }

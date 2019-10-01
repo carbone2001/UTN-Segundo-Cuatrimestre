@@ -1,0 +1,26 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace CentralitaWindowsForms
+{
+    public partial class FrmCentralita : Form
+    {
+        public FrmCentralita()
+        {
+            InitializeComponent();
+        }
+
+        private void btnLlamadaLocal_Click(object sender, EventArgs e)
+        {
+            Llamada frmLlamada = new Llamada();
+            frmLlamada.ShowDialog();
+        }
+    }
+}

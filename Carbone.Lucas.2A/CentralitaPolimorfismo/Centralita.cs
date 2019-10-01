@@ -18,21 +18,21 @@ namespace CentralitaPolimorfismo
         {
             get
             {
-                return 0;
+                return this.CalcularGanancia(TipoLlamada.Local);
             }
         }
         public float GananciaPorProvincial
         {
             get
             {
-                return 0;
+                return this.CalcularGanancia(TipoLlamada.Provincial);
             }
         }
         public float GananciaTotal
         {
             get
             {
-                return 0;
+                return this.CalcularGanancia(TipoLlamada.Todas);
             }
         }
         public List<Llamada> Llamadas
@@ -79,7 +79,6 @@ namespace CentralitaPolimorfismo
                 
         }
 
-
         private void AgregarLlamada(Llamada nuevaLlamada)
         {
             if(this != nuevaLlamada)
@@ -87,7 +86,40 @@ namespace CentralitaPolimorfismo
         }
         private float CalcularGanancia(TipoLlamada tipo)
         {
-            return 0;
+            float resultado = 0;
+            switch (tipo)
+            {
+                case TipoLlamada.Local:
+                    foreach (Llamada llamada in this._listaDeLlamadas)
+                    {
+                        if(llamada is Local)
+                        {
+                            resultado += llamada.CostoLlamada;
+                        }
+                    }
+                    break;
+                case TipoLlamada.Provincial:
+                    foreach (Llamada llamada in this._listaDeLlamadas)
+                    {
+                        if (llamada is Local)
+                        {
+                            resultado += llamada.CostoLlamada;
+                        }
+                    }
+                    break;
+                case TipoLlamada.Todas:
+                    foreach (Llamada llamada in this._listaDeLlamadas)
+                    {
+                        if (llamada is Local)
+                        {
+                            resultado += llamada.CostoLlamada;
+                        }
+                    }
+                    break;
+            }
+
+            
+            return resultado;
         }
         public Centralita()
         {

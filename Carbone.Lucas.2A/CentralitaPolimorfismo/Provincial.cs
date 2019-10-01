@@ -13,7 +13,7 @@ namespace CentralitaPolimorfismo
         #endregion
 
         #region Propiedades
-        protected override float CostoLlamada
+        public override float CostoLlamada
         {
             get
             {
@@ -25,7 +25,7 @@ namespace CentralitaPolimorfismo
         #region Metodos
         private float CalcularCosto()
         {
-            return 0;
+            return base.Duracion*this.CostoLlamada;
         }
         public override bool Equals(object obj)
         {

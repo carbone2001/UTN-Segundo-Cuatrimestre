@@ -13,11 +13,11 @@ namespace CentralitaPolimorfismo
         #endregion
         
         #region Propiedades
-        protected override float CostoLlamada
+        public override float CostoLlamada
         {
             get
             {
-                return this._costo;
+                return this.CalcularCosto();
             }
         }
         #endregion
@@ -47,7 +47,7 @@ namespace CentralitaPolimorfismo
         }
         private float CalcularCosto()
         {
-            return this.Duracion * this.CostoLlamada;
+            return this.Duracion * this._costo;
         }
            
         #endregion
