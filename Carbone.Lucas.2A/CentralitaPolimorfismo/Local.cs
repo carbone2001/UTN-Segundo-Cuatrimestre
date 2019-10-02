@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CentralitaPolimorfismo
 {
-    class Local:Llamada
+    public class Local:Llamada
     {
         #region Atributos
         protected float _costo;

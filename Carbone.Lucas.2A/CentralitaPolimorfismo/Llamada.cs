@@ -66,7 +66,7 @@ namespace CentralitaPolimorfismo
         {
             return !(uno == dos);
         }
-        public static int OrdenarPorDuracion(Llamada uno,Llamada dos)
+        public static int OrdenarPorDuracionDesc(Llamada uno,Llamada dos)
         {
             if(uno.Duracion > dos.Duracion)
             {
@@ -77,6 +77,10 @@ namespace CentralitaPolimorfismo
                 return 0;
             }
             return 1;
+        }
+        public static int OrdenarPorDuracionAsc(Llamada uno, Llamada dos)
+        {
+            return OrdenarPorDuracionDesc(uno,dos)*(-1);
         }
         #endregion
     }

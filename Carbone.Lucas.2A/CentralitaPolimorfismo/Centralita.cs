@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CentralitaPolimorfismo
 {
-    class Centralita
+    public class Centralita
     {
         #region Atributos
         private List<Llamada> _listaDeLlamadas;
@@ -130,9 +130,13 @@ namespace CentralitaPolimorfismo
             this._razonSocial = nombreEmpresa;
         }
 
-        public void OrdenarLlamadas()
+        public void OrdenarLlamadas(byte i)
         {
-            this.Llamadas.Sort(Llamada.OrdenarPorDuracion);
+            if(i==1)
+            this.Llamadas.Sort(Llamada.OrdenarPorDuracionAsc);
+            else
+                this.Llamadas.Sort(Llamada.OrdenarPorDuracionDesc);
+
         }
         #endregion
     }

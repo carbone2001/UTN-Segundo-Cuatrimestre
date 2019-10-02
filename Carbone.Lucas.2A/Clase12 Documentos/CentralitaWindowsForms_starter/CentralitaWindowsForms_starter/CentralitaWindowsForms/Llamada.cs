@@ -12,17 +12,26 @@ namespace CentralitaWindowsForms
 {
     public partial class Llamada : Form
     {
-        public CentralitaPolimorfismo.Llamada llamada;
+        protected CentralitaPolimorfismo.Llamada laLlamada;
+
         public Llamada()
         {
             InitializeComponent();
-            
         }
 
-        private void btnAceptar_Click(object sender, EventArgs e)
+        public CentralitaPolimorfismo.Llamada GetLlamada
         {
-            //llamada = new CentralitaPolimorfismo.Llamada(txtNumeroOrigen.Text,txtNumeroDestino,float.Parse(txtDuracion));
-            //this.DialogResult = DialogResult.OK;
+            get
+            {
+                return this.laLlamada;
+            }
+        }
+
+        protected virtual void btnAceptar_Click(object sender, EventArgs e) { }
+
+        private void btnCancelar_Click(object sender, EventArgs e)
+        {
+            this.DialogResult = DialogResult.Cancel;
         }
     }
 }

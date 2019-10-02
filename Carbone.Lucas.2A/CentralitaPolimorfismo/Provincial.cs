@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CentralitaPolimorfismo
 {
-    class Provincial:Local
+    public class Provincial:Local
     {
         #region Atributos
         protected Franja _franjaHoraria;
