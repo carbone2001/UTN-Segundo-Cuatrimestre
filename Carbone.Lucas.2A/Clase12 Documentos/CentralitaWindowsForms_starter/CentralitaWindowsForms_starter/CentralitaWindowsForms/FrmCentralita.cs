@@ -1,11 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 using CentralitaPolimorfismo;
 
@@ -27,7 +20,7 @@ namespace CentralitaWindowsForms
         {
             LlamadaLocal frmLocal = new LlamadaLocal();
             frmLocal.ShowDialog();
-            if(frmLocal.DialogResult == DialogResult.OK)
+            if (frmLocal.DialogResult == DialogResult.OK)
             {
                 central += frmLocal.GetLlamada;
                 RefrescarLista();
@@ -48,17 +41,17 @@ namespace CentralitaWindowsForms
         private void RefrescarLista()
         {
             this.lstVisor.Items.Clear();
-            if(this.cboOrdenamiento.SelectedItem.ToString() == "Ascendente")
+            if (this.cboOrdenamiento.SelectedItem.ToString() == "Ascendente")
             {
                 central.OrdenarLlamadas(1);
             }
-            else if(this.cboOrdenamiento.SelectedItem.ToString() == "Descendente")
+            else if (this.cboOrdenamiento.SelectedItem.ToString() == "Descendente")
             {
-               
+
                 central.OrdenarLlamadas(0);
             }
-            
-            foreach(CentralitaPolimorfismo.Llamada i in central.Llamadas)
+
+            foreach (CentralitaPolimorfismo.Llamada i in central.Llamadas)
             {
                 this.lstVisor.Items.Add(i.ToString());
             }

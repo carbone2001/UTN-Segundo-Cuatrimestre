@@ -1,5 +1,5 @@
-﻿using Clase_02.Entidades;
-using System;
+﻿using System;
+using Clase_02.Entidades;
 
 namespace clase_02
 {

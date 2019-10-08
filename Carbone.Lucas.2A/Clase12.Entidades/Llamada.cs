@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace Clase12.Entidades
+﻿namespace Clase12.Entidades
 {
     public abstract class Llamada
     {

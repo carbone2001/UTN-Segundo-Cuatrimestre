@@ -1,5 +1,5 @@
-﻿using Clase06.Entidades;
-using System;
+﻿using System;
+using Clase06.Entidades;
 
 namespace Clase06
 {

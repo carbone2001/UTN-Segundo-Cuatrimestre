@@ -1,17 +1,13 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Text;
 
 namespace CentralitaPolimorfismo
 {
-    public class Local:Llamada
+    public class Local : Llamada
     {
         #region Atributos
         protected float _costo;
         #endregion
-        
+
         #region Propiedades
         public override float CostoLlamada
         {
@@ -49,7 +45,7 @@ namespace CentralitaPolimorfismo
         {
             return this.Duracion * this._costo;
         }
-           
+
         #endregion
     }
 }

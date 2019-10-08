@@ -1,8 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace CentralitaPolimorfismo
 {
@@ -47,11 +44,11 @@ namespace CentralitaPolimorfismo
         #region Metodos
         public static bool operator ==(Centralita central, Llamada nuevaLlamada)
         {
-            if(!Object.Equals(central,null) && !Object.Equals(nuevaLlamada,null))
+            if (!Object.Equals(central, null) && !Object.Equals(nuevaLlamada, null))
             {
-                for(int i=0; i<central.Llamadas.Count; i++)
+                for (int i = 0; i < central.Llamadas.Count; i++)
                 {
-                    if(central.Llamadas[i] == nuevaLlamada)
+                    if (central.Llamadas[i] == nuevaLlamada)
                     {
                         return true;
                     }
@@ -76,12 +73,12 @@ namespace CentralitaPolimorfismo
                 Console.WriteLine("Ya existe el objeto");
                 return central;
             }
-                
+
         }
 
         private void AgregarLlamada(Llamada nuevaLlamada)
         {
-            if(this != nuevaLlamada)
+            if (this != nuevaLlamada)
                 this.Llamadas.Add(nuevaLlamada);
         }
         private float CalcularGanancia(TipoLlamada tipo)
@@ -92,7 +89,7 @@ namespace CentralitaPolimorfismo
                 case TipoLlamada.Local:
                     foreach (Llamada llamada in this._listaDeLlamadas)
                     {
-                        if(llamada is Local)
+                        if (llamada is Local)
                         {
                             resultado += llamada.CostoLlamada;
                         }
@@ -118,22 +115,22 @@ namespace CentralitaPolimorfismo
                     break;
             }
 
-            
+
             return resultado;
         }
         public Centralita()
         {
             _listaDeLlamadas = new List<Llamada>();
         }
-        public Centralita(string nombreEmpresa): this()
+        public Centralita(string nombreEmpresa) : this()
         {
             this._razonSocial = nombreEmpresa;
         }
 
         public void OrdenarLlamadas(byte i)
         {
-            if(i==1)
-            this.Llamadas.Sort(Llamada.OrdenarPorDuracionAsc);
+            if (i == 1)
+                this.Llamadas.Sort(Llamada.OrdenarPorDuracionAsc);
             else
                 this.Llamadas.Sort(Llamada.OrdenarPorDuracionDesc);
 

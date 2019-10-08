@@ -1,5 +1,4 @@
-﻿using Clase10.Entidades;
-using System;
+﻿using System;
 using System.Windows.Forms;
 using Clase10.Entidades;
 namespace Clase10.WF
@@ -17,12 +16,12 @@ namespace Clase10.WF
                 this.cmbTipoDeExamen.Items.Add(t);
             }
             this.cmbTipoDeExamen.SelectedItem = ETipoExamen.Final;
-            if(alumno != null)
+            if (alumno != null)
             {
                 txtLegajo.Enabled = false;
             }
         }
-        public FrmAlumno(Alumno a):this()
+        public FrmAlumno(Alumno a) : this()
         {
             this.txtNombre.Text = a.Nombre;
             this.txtApellido.Text = a.Apellido;
@@ -30,7 +29,7 @@ namespace Clase10.WF
             this.txtLegajo.Enabled = false;
 
         }
-        
+
         public Alumno GetAlumno
         {
             get

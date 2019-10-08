@@ -1,8 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 
 namespace CentralitaPolimorfismo
 {
@@ -15,7 +12,7 @@ namespace CentralitaPolimorfismo
         #endregion
 
         #region Propiedades
-        public abstract float CostoLlamada {get;}
+        public abstract float CostoLlamada { get; }
         public float Duracion
         {
             get { return this._duracion; }
@@ -37,7 +34,7 @@ namespace CentralitaPolimorfismo
         #endregion
 
         #region Metodos
-        public Llamada(string origen,string destino,float duracion)
+        public Llamada(string origen, string destino, float duracion)
         {
             this._duracion = duracion;
             this._nroDestino = destino;
@@ -52,7 +49,7 @@ namespace CentralitaPolimorfismo
         {
             if ((!Object.Equals(uno, null) && !Object.Equals(dos, null)))
             {
-                if(uno.NroDestino == dos.NroDestino && uno.NroOrigen == dos.NroOrigen)
+                if (uno.NroDestino == dos.NroDestino && uno.NroOrigen == dos.NroOrigen)
                     return true;
                 return false;
             }
@@ -62,17 +59,17 @@ namespace CentralitaPolimorfismo
             }
         }
 
-        public static bool operator != (Llamada uno,Llamada dos)
+        public static bool operator !=(Llamada uno, Llamada dos)
         {
             return !(uno == dos);
         }
-        public static int OrdenarPorDuracionDesc(Llamada uno,Llamada dos)
+        public static int OrdenarPorDuracionDesc(Llamada uno, Llamada dos)
         {
-            if(uno.Duracion > dos.Duracion)
+            if (uno.Duracion > dos.Duracion)
             {
                 return -1;
             }
-            else if(uno.Duracion == dos.Duracion)
+            else if (uno.Duracion == dos.Duracion)
             {
                 return 0;
             }
@@ -80,7 +77,7 @@ namespace CentralitaPolimorfismo
         }
         public static int OrdenarPorDuracionAsc(Llamada uno, Llamada dos)
         {
-            return OrdenarPorDuracionDesc(uno,dos)*(-1);
+            return OrdenarPorDuracionDesc(uno, dos) * (-1);
         }
         #endregion
     }

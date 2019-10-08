@@ -1,11 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 using CentralitaPolimorfismo;
 namespace CentralitaWindowsForms
@@ -15,7 +8,7 @@ namespace CentralitaWindowsForms
         public LlamadaProvincial() : base()
         {
             InitializeComponent();
-            foreach(Franja f in Franja.GetValues(typeof(Franja)))
+            foreach (Franja f in Franja.GetValues(typeof(Franja)))
             {
                 cmbFranja.Items.Add(f);
             }

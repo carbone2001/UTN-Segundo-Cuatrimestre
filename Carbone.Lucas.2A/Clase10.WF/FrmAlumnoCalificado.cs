@@ -9,12 +9,12 @@ namespace Clase10.WF
         public FrmAlumnoCalificado()
         {
             InitializeComponent();
-            foreach(ETipoExamen e in ETipoExamen.GetValues(typeof(ETipoExamen)))
+            foreach (ETipoExamen e in ETipoExamen.GetValues(typeof(ETipoExamen)))
             {
                 cmbTipoDeExamen.Items.Add(e);
             }
         }
-        public FrmAlumnoCalificado(Alumno a): this()
+        public FrmAlumnoCalificado(Alumno a) : this()
         {
             this.txtNombre.Text = a.Nombre;
             this.txtApellido.Text = a.Apellido;

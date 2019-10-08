@@ -1,5 +1,5 @@
-﻿using Clase05.Entidades;
-using System;
+﻿using System;
+using Clase05.Entidades;
 
 namespace Clase05
 {

@@ -1,0 +1,6 @@
+C:\Users\Lucas\Escritorio En SSD\UTN-Segundo-Cuatrimestre\Carbone.Lucas.2A\Ejercicio38\bin\Debug\Ejercicio38.exe.config
+C:\Users\Lucas\Escritorio En SSD\UTN-Segundo-Cuatrimestre\Carbone.Lucas.2A\Ejercicio38\bin\Debug\Ejercicio38.exe
+C:\Users\Lucas\Escritorio En SSD\UTN-Segundo-Cuatrimestre\Carbone.Lucas.2A\Ejercicio38\bin\Debug\Ejercicio38.pdb
+C:\Users\Lucas\Escritorio En SSD\UTN-Segundo-Cuatrimestre\Carbone.Lucas.2A\Ejercicio38\obj\Debug\Ejercicio38.csprojAssemblyReference.cache
+C:\Users\Lucas\Escritorio En SSD\UTN-Segundo-Cuatrimestre\Carbone.Lucas.2A\Ejercicio38\obj\Debug\Ejercicio38.exe
+C:\Users\Lucas\Escritorio En SSD\UTN-Segundo-Cuatrimestre\Carbone.Lucas.2A\Ejercicio38\obj\Debug\Ejercicio38.pdb

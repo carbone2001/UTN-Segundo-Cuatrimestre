@@ -1,6 +1,6 @@
-﻿using Ejercicio21;
-using System;
+﻿using System;
 using System.Windows.Forms;
+using Ejercicio21;
 namespace ejercicio24__Windows_Form_
 {
     public partial class Form1 : Form

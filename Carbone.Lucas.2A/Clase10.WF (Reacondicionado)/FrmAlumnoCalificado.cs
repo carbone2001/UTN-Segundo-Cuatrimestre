@@ -7,11 +7,11 @@ namespace Clase10.WF
     {
         protected TextBox txtCalificacion;
         public AlumnoCalificado alumnoCalificado;
-        public FrmAlumnoCalificado():base()
+        public FrmAlumnoCalificado() : base()
         {
             InitializeComponent();
         }
-        public FrmAlumnoCalificado(Alumno a): this()
+        public FrmAlumnoCalificado(Alumno a) : this()
         {
             base.alumno = a;
             this.txtNombre.Text = a.Nombre;
@@ -29,12 +29,12 @@ namespace Clase10.WF
         {
             this.DialogResult = DialogResult.Cancel;
         }
-        
-        protected override void btnAceptar_Click(object sender,System.EventArgs e)
+
+        protected override void btnAceptar_Click(object sender, System.EventArgs e)
         {
             this.alumnoCalificado = new AlumnoCalificado(base.alumno, double.Parse(this.txtNota.Text));
             this.DialogResult = DialogResult.OK;
         }
-    
+
     }
 }

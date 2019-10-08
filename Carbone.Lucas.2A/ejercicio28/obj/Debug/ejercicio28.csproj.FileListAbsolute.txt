@@ -5,6 +5,5 @@ C:\Users\Lucas\Escritorio En SSD\UTN-Segundo-Cuatrimestre\Carbone.Lucas.2A\ejerc
 C:\Users\Lucas\Escritorio En SSD\UTN-Segundo-Cuatrimestre\Carbone.Lucas.2A\ejercicio28\obj\Debug\ejercicio28.Form1.resources
 C:\Users\Lucas\Escritorio En SSD\UTN-Segundo-Cuatrimestre\Carbone.Lucas.2A\ejercicio28\obj\Debug\ejercicio28.Properties.Resources.resources
 C:\Users\Lucas\Escritorio En SSD\UTN-Segundo-Cuatrimestre\Carbone.Lucas.2A\ejercicio28\obj\Debug\ejercicio28.csproj.GenerateResource.cache
-C:\Users\Lucas\Escritorio En SSD\UTN-Segundo-Cuatrimestre\Carbone.Lucas.2A\ejercicio28\obj\Debug\ejercicio28.csproj.CoreCompileInputs.cache
 C:\Users\Lucas\Escritorio En SSD\UTN-Segundo-Cuatrimestre\Carbone.Lucas.2A\ejercicio28\obj\Debug\ejercicio28.exe
 C:\Users\Lucas\Escritorio En SSD\UTN-Segundo-Cuatrimestre\Carbone.Lucas.2A\ejercicio28\obj\Debug\ejercicio28.pdb

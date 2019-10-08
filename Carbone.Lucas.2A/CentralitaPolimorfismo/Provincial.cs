@@ -1,12 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Text;
 
 namespace CentralitaPolimorfismo
 {
-    public class Provincial:Local
+    public class Provincial : Local
     {
         #region Atributos
         protected Franja _franjaHoraria;
@@ -25,7 +21,7 @@ namespace CentralitaPolimorfismo
         #region Metodos
         private float CalcularCosto()
         {
-            return base.Duracion*this.CostoLlamada;
+            return base.Duracion * this.CostoLlamada;
         }
         public override bool Equals(object obj)
         {
@@ -33,12 +29,12 @@ namespace CentralitaPolimorfismo
                 return true;
             return false;
         }
-        public Provincial(Franja miFranja,Llamada unallamada):this(unallamada.NroOrigen,miFranja,unallamada.Duracion,unallamada.NroDestino)
+        public Provincial(Franja miFranja, Llamada unallamada) : this(unallamada.NroOrigen, miFranja, unallamada.Duracion, unallamada.NroDestino)
         {
         }
-        public Provincial(string origen, Franja miFranja ,float duracion,string destino) : base(origen, destino, duracion, 0)
+        public Provincial(string origen, Franja miFranja, float duracion, string destino) : base(origen, destino, duracion, 0)
         {
-            switch(miFranja)
+            switch (miFranja)
             {
                 case Franja.Franja_1:
                     this._costo = 1.99f;

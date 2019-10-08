@@ -1,6 +1,6 @@
-﻿using Billetes;
-using System;
+﻿using System;
 using System.Windows.Forms;
+using Billetes;
 
 namespace ejercicio23_Windows_Form_
 {

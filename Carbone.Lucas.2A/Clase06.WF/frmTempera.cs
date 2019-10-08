@@ -1,6 +1,6 @@
-﻿using Clase06.Entidades;
-using System;
+﻿using System;
 using System.Windows.Forms;
+using Clase06.Entidades;
 namespace Clase06.WF
 {
     public partial class frmTempera : Form

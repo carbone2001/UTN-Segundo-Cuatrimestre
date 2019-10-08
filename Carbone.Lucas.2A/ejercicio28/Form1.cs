@@ -1,11 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace ejercicio28
@@ -22,26 +16,26 @@ namespace ejercicio28
         {
             string palabras = this.rtbPalabras.Text;
             int countDiccionario;
-            Dictionary<string,int> Diccionario  = new Dictionary<string,int>();
+            Dictionary<string, int> Diccionario = new Dictionary<string, int>();
             string nuevaPalabra = "";
             List<string> primerosPuestosString = new List<string>();
             List<int> primerosPuestosInt = new List<int>();
 
-            for (int i=0;i<palabras.Length;i++)
+            for (int i = 0; i < palabras.Length; i++)
             {
-                if(palabras[i] != '\n')
+                if (palabras[i] != '\n')
                 {
                     nuevaPalabra += palabras[i];
                 }
                 else
                 {
                     countDiccionario = Diccionario.Count;
-                    for(int j=0;j<countDiccionario;j++)
+                    for (int j = 0; j < countDiccionario; j++)
                     {
-                        if((Diccionario[nuevaPalabra])==0)
+                        if ((Diccionario[nuevaPalabra]) == 0)
                         {
                             Diccionario.Add(nuevaPalabra, 1);
-                            
+
                         }
                         else
                         {
@@ -67,9 +61,9 @@ namespace ejercicio28
                         }
                     }
                 }
-                MessageBox.Show(primerosPuestosString[0]+" - Aparecio: "+primerosPuestosInt[0]+"\n"+ primerosPuestosString[1] + " - Aparecio: " + primerosPuestosInt[1] + "\n" + primerosPuestosString[2] + " - Aparecio: " + primerosPuestosInt[2] + "\n");
+                MessageBox.Show(primerosPuestosString[0] + " - Aparecio: " + primerosPuestosInt[0] + "\n" + primerosPuestosString[1] + " - Aparecio: " + primerosPuestosInt[1] + "\n" + primerosPuestosString[2] + " - Aparecio: " + primerosPuestosInt[2] + "\n");
             }
-            
+
         }
     }
 }

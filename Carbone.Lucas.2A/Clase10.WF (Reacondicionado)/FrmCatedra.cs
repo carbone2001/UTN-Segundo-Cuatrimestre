@@ -1,8 +1,8 @@
-﻿using Clase10.Entidades;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Windows.Forms;
+using Clase10.Entidades;
 
 namespace Clase10.WF
 {
@@ -43,13 +43,13 @@ namespace Clase10.WF
         {
             int count;
             this.lsbAlumnos.Items.Clear();
-            
+
             count = catedra.Alumnos.Count();
             for (int i = 0; i < count; i++)
             {
                 this.lsbAlumnos.Items.Add(Alumno.Mostrar(this.catedra.Alumnos[i]));
             }
-            
+
         }
         private void ActualizarListadoAlumnosCalificados()
         {
@@ -64,7 +64,7 @@ namespace Clase10.WF
 
         private void CmbTipoOrden_SelectedIndexChanged(object sender, EventArgs e)
         {
-            
+
             int count;
             switch (this.cmbTipoOrden.SelectedItem)
             {
@@ -90,12 +90,12 @@ namespace Clase10.WF
             this.ActualizarListadoAlumnos();
             this.ActualizarListadoAlumnosCalificados();
 
-            
+
         }
 
         private void BtnCalificar_Click(object sender, EventArgs e)
         {
-            if(lsbAlumnos.SelectedIndex >= 0 && lsbAlumnos.SelectedIndex < this.catedra.Alumnos.Count)
+            if (lsbAlumnos.SelectedIndex >= 0 && lsbAlumnos.SelectedIndex < this.catedra.Alumnos.Count)
             {
                 Alumno calificarAlumno = this.catedra.Alumnos[lsbAlumnos.SelectedIndex];
                 FrmAlumnoCalificado frmAlumnoCalificado = new FrmAlumnoCalificado(calificarAlumno);
@@ -127,8 +127,8 @@ namespace Clase10.WF
 
         public override string ToString()
         {
-            string alumnosCalificados="";
-            foreach(AlumnoCalificado a in this.alumnosCalificados)
+            string alumnosCalificados = "";
+            foreach (AlumnoCalificado a in this.alumnosCalificados)
             {
                 alumnosCalificados += a.Mostrar();
             }
