@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.29324.140
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2047
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ejercicio_01", "ejercicio_01\ejercicio_01.csproj", "{176146AE-282E-44F4-B24D-D6F29AA659FD}"
 EndProject
@@ -98,6 +98,10 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CentralitaWindowsForms", "Clase12 Documentos\CentralitaWindowsForms_starter\CentralitaWindowsForms_starter\CentralitaWindowsForms\CentralitaWindowsForms.csproj", "{9C127181-9D8C-4D0A-8A53-C66D8C0F8480}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ejercicio38", "Ejercicio38\Ejercicio38.csproj", "{28982BEA-5F36-4B51-9D91-01CBD5B27029}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clase15.Entidades(Practica Parcial)", "Clase15.Entidades(Practica Parcial)\Clase15.Entidades(Practica Parcial).csproj", "{0ED041EA-F537-42CC-8740-7C1E920A5E2A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clase15.TestPracticaParcial", "Clase15.TestPracticaParcial\Clase15.TestPracticaParcial.csproj", "{C1C9927F-068D-442D-B047-0BABDE53A731}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -297,6 +301,14 @@ Global
 		{28982BEA-5F36-4B51-9D91-01CBD5B27029}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{28982BEA-5F36-4B51-9D91-01CBD5B27029}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{28982BEA-5F36-4B51-9D91-01CBD5B27029}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0ED041EA-F537-42CC-8740-7C1E920A5E2A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0ED041EA-F537-42CC-8740-7C1E920A5E2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0ED041EA-F537-42CC-8740-7C1E920A5E2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0ED041EA-F537-42CC-8740-7C1E920A5E2A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C1C9927F-068D-442D-B047-0BABDE53A731}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1C9927F-068D-442D-B047-0BABDE53A731}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1C9927F-068D-442D-B047-0BABDE53A731}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1C9927F-068D-442D-B047-0BABDE53A731}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

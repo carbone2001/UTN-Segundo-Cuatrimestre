@@ -1,0 +1,9 @@
+C:\Users\alumno\Desktop\UTN-Segundo-Cuatrimestre\Carbone.Lucas.2A\Clase15.Entidades(Practica Parcial)\bin\Debug\netstandard2.0\Clase15.Entidades(Practica Parcial).deps.json
+C:\Users\alumno\Desktop\UTN-Segundo-Cuatrimestre\Carbone.Lucas.2A\Clase15.Entidades(Practica Parcial)\bin\Debug\netstandard2.0\Clase15.Entidades(Practica Parcial).dll
+C:\Users\alumno\Desktop\UTN-Segundo-Cuatrimestre\Carbone.Lucas.2A\Clase15.Entidades(Practica Parcial)\bin\Debug\netstandard2.0\Clase15.Entidades(Practica Parcial).pdb
+C:\Users\alumno\Desktop\UTN-Segundo-Cuatrimestre\Carbone.Lucas.2A\Clase15.Entidades(Practica Parcial)\obj\Debug\netstandard2.0\Clase15.Entidades(Practica Parcial).csprojAssemblyReference.cache
+C:\Users\alumno\Desktop\UTN-Segundo-Cuatrimestre\Carbone.Lucas.2A\Clase15.Entidades(Practica Parcial)\obj\Debug\netstandard2.0\Clase15.Entidades(Practica Parcial).csproj.CoreCompileInputs.cache
+C:\Users\alumno\Desktop\UTN-Segundo-Cuatrimestre\Carbone.Lucas.2A\Clase15.Entidades(Practica Parcial)\obj\Debug\netstandard2.0\Clase15.Entidades(Practica Parcial).AssemblyInfoInputs.cache
+C:\Users\alumno\Desktop\UTN-Segundo-Cuatrimestre\Carbone.Lucas.2A\Clase15.Entidades(Practica Parcial)\obj\Debug\netstandard2.0\Clase15.Entidades(Practica Parcial).AssemblyInfo.cs
+C:\Users\alumno\Desktop\UTN-Segundo-Cuatrimestre\Carbone.Lucas.2A\Clase15.Entidades(Practica Parcial)\obj\Debug\netstandard2.0\Clase15.Entidades(Practica Parcial).dll
+C:\Users\alumno\Desktop\UTN-Segundo-Cuatrimestre\Carbone.Lucas.2A\Clase15.Entidades(Practica Parcial)\obj\Debug\netstandard2.0\Clase15.Entidades(Practica Parcial).pdb
