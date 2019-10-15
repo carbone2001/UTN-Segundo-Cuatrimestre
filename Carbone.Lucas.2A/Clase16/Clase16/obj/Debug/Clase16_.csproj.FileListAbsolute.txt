@@ -1,0 +1,13 @@
+D:\VisualStudio\Temporal\Clase16_\bin\Debug\Clase16_.exe.config
+D:\VisualStudio\Temporal\Clase16_\bin\Debug\Clase16_.exe
+D:\VisualStudio\Temporal\Clase16_\bin\Debug\Clase16_.pdb
+D:\VisualStudio\Temporal\Clase16_\obj\Debug\Clase16_.csprojAssemblyReference.cache
+D:\VisualStudio\Temporal\Clase16_\obj\Debug\Clase16_.csproj.CoreCompileInputs.cache
+D:\VisualStudio\Temporal\Clase16_\obj\Debug\Clase16_.exe
+D:\VisualStudio\Temporal\Clase16_\obj\Debug\Clase16_.pdb
+C:\Users\Lucas\Escritorio En SSD\UTN-Segundo-Cuatrimestre\Carbone.Lucas.2A\Clase16\Clase16\bin\Debug\Clase16_.exe.config
+C:\Users\Lucas\Escritorio En SSD\UTN-Segundo-Cuatrimestre\Carbone.Lucas.2A\Clase16\Clase16\bin\Debug\Clase16_.exe
+C:\Users\Lucas\Escritorio En SSD\UTN-Segundo-Cuatrimestre\Carbone.Lucas.2A\Clase16\Clase16\bin\Debug\Clase16_.pdb
+C:\Users\Lucas\Escritorio En SSD\UTN-Segundo-Cuatrimestre\Carbone.Lucas.2A\Clase16\Clase16\obj\Debug\Clase16_.csprojAssemblyReference.cache
+C:\Users\Lucas\Escritorio En SSD\UTN-Segundo-Cuatrimestre\Carbone.Lucas.2A\Clase16\Clase16\obj\Debug\Clase16_.exe
+C:\Users\Lucas\Escritorio En SSD\UTN-Segundo-Cuatrimestre\Carbone.Lucas.2A\Clase16\Clase16\obj\Debug\Clase16_.pdb
