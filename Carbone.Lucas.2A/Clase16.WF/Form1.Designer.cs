@@ -35,7 +35,7 @@
             this.rtxtTexto = new System.Windows.Forms.RichTextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.btnAceptar = new System.Windows.Forms.Button();
-            this.btnCancelar = new System.Windows.Forms.Button();
+            this.btnLeer = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -98,22 +98,22 @@
             this.btnAceptar.UseVisualStyleBackColor = true;
             this.btnAceptar.Click += new System.EventHandler(this.btnAceptar_Click);
             // 
-            // btnCancelar
+            // btnLeer
             // 
-            this.btnCancelar.Location = new System.Drawing.Point(112, 265);
-            this.btnCancelar.Name = "btnCancelar";
-            this.btnCancelar.Size = new System.Drawing.Size(86, 45);
-            this.btnCancelar.TabIndex = 7;
-            this.btnCancelar.Text = "Cancelar";
-            this.btnCancelar.UseVisualStyleBackColor = true;
-            this.btnCancelar.Click += new System.EventHandler(this.btnCancelar_Click);
+            this.btnLeer.Location = new System.Drawing.Point(112, 265);
+            this.btnLeer.Name = "btnLeer";
+            this.btnLeer.Size = new System.Drawing.Size(86, 45);
+            this.btnLeer.TabIndex = 7;
+            this.btnLeer.Text = "Leer";
+            this.btnLeer.UseVisualStyleBackColor = true;
+            this.btnLeer.Click += new System.EventHandler(this.btnLeer_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(216, 322);
-            this.Controls.Add(this.btnCancelar);
+            this.Controls.Add(this.btnLeer);
             this.Controls.Add(this.btnAceptar);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.rtxtTexto);
@@ -137,7 +137,7 @@
         private System.Windows.Forms.RichTextBox rtxtTexto;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Button btnAceptar;
-        private System.Windows.Forms.Button btnCancelar;
+        private System.Windows.Forms.Button btnLeer;
     }
 }
 
