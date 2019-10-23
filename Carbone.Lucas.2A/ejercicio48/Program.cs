@@ -19,8 +19,12 @@ namespace ejercicio48
             Contabilidad<Factura, Recibo> c = new Contabilidad<Factura, Recibo>();
             Console.WriteLine("Agrego factura!");
             c += f1;
-            Console.WriteLine("Agrego Recibo!");
+            c += f2;
+            c += f3;
+            Console.WriteLine("Agrego Recibos!");
             c += r1;
+            c += r3;
+            c += r2;
             Console.ReadLine();
         }
     }

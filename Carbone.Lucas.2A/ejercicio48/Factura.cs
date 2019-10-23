@@ -10,7 +10,6 @@ namespace ejercicio48
     {
         public Factura(int numero):base(numero)
         {
-
         }
     }
 }
