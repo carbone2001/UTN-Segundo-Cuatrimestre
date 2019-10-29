@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Clase20.Entidades
 {
-    class Alumno : Persona
+    public class Alumno : Persona
     {
         public double nota;
 
@@ -14,7 +14,7 @@ namespace Clase20.Entidades
         {
 
         }
-        public Alumno(double nota):this()
+        public Alumno(string nombre, string apellido, int edad, double nota) : base(nombre, apellido, edad)
         {
             this.nota = nota;
         }

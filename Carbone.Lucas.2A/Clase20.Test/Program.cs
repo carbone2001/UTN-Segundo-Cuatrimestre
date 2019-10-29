@@ -13,7 +13,38 @@ namespace Clase20.Test
     {
         static void Main(string[] args)
         {
-            //Persona individual
+            List<Persona> listaPersonas = new List<Persona>();
+            List<Persona> listaPersonasAux = new List<Persona>();
+            Persona p1 = new Persona("nombre1", "apellido1", 20);
+            Persona p2 = new Persona("nombre2", "apellido2", 30);
+            Empleado e1 = new Empleado("nombreEmp1", "apellidoEmp1", 20,1,10000);
+            Empleado e2 = new Empleado("nombreEmp2", "apellidoEmp2", 30,2,11000);
+            Alumno a1 = new Alumno("nombreAlumno1", "apellidoAlumno1", 20,8);
+            Alumno a2 = new Alumno("nombreAlumno2", "apellidoAlumno2", 30,10);
+            listaPersonas.Add(p1);
+            listaPersonas.Add(p2);
+            listaPersonas.Add(e1);
+            listaPersonas.Add(e2);
+            listaPersonas.Add(a1);
+            listaPersonas.Add(a2);
+
+            //Serializadora.Serealizar(listaPersonas);
+            XmlSerializer xmlS = new XmlSerializer(typeof(List<Persona>));
+            TextWriter tw = new StreamWriter(Environment.GetFolderPath(Environment.SpecialFolder.Desktop)+"\\ListaPersonas.xml");
+            xmlS.Serialize(tw, listaPersonas);
+            tw.Close();
+            
+
+            TextReader tr = new StreamReader(Environment.GetFolderPath(Environment.SpecialFolder.Desktop) + "\\ListaPersonas.xml");
+            listaPersonasAux = (List<Persona>)xmlS.Deserialize(tr);
+            tr.Close();
+
+
+
+            Console.ReadLine();
+
+
+            /*//Persona individual
             Persona p = new Persona("Juan", "Perez", 20);
 
             //Lista de personas
@@ -86,9 +117,9 @@ namespace Clase20.Test
             //Serializadora.Serealizar(a2);
             Serializadora.Deserealizar(a1,out a3);
             Console.WriteLine("Deserializado: "+a3.ToString());
-            //Serializadora.Deserealizar(a1,out a4);
+            //Serializadora.Deserealizar(a1,out a4);*/
 
-            Console.ReadLine();
+
         }
     }
 }

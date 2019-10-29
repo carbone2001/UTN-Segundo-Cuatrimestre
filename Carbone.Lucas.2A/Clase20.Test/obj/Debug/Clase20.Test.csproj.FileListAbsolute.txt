@@ -8,3 +8,12 @@ C:\Users\alumno\Desktop\UTN-Segundo-Cuatrimestre\Carbone.Lucas.2A\Clase20.Test\b
 C:\Users\alumno\Desktop\UTN-Segundo-Cuatrimestre\Carbone.Lucas.2A\Clase20.Test\obj\Debug\Clase20.Test.csproj.CopyComplete
 C:\Users\alumno\Desktop\UTN-Segundo-Cuatrimestre\Carbone.Lucas.2A\Clase20.Test\obj\Debug\Clase20.Test.exe
 C:\Users\alumno\Desktop\UTN-Segundo-Cuatrimestre\Carbone.Lucas.2A\Clase20.Test\obj\Debug\Clase20.Test.pdb
+C:\Users\Lucas\Escritorio En SSD\UTN-Segundo-Cuatrimestre\Carbone.Lucas.2A\Clase20.Test\bin\Debug\Clase20.Test.exe.config
+C:\Users\Lucas\Escritorio En SSD\UTN-Segundo-Cuatrimestre\Carbone.Lucas.2A\Clase20.Test\bin\Debug\Clase20.Test.exe
+C:\Users\Lucas\Escritorio En SSD\UTN-Segundo-Cuatrimestre\Carbone.Lucas.2A\Clase20.Test\bin\Debug\Clase20.Test.pdb
+C:\Users\Lucas\Escritorio En SSD\UTN-Segundo-Cuatrimestre\Carbone.Lucas.2A\Clase20.Test\bin\Debug\Clase20.Entidades.dll
+C:\Users\Lucas\Escritorio En SSD\UTN-Segundo-Cuatrimestre\Carbone.Lucas.2A\Clase20.Test\bin\Debug\Clase20.Entidades.pdb
+C:\Users\Lucas\Escritorio En SSD\UTN-Segundo-Cuatrimestre\Carbone.Lucas.2A\Clase20.Test\obj\Debug\Clase20.Test.csprojAssemblyReference.cache
+C:\Users\Lucas\Escritorio En SSD\UTN-Segundo-Cuatrimestre\Carbone.Lucas.2A\Clase20.Test\obj\Debug\Clase20.Test.csproj.CopyComplete
+C:\Users\Lucas\Escritorio En SSD\UTN-Segundo-Cuatrimestre\Carbone.Lucas.2A\Clase20.Test\obj\Debug\Clase20.Test.exe
+C:\Users\Lucas\Escritorio En SSD\UTN-Segundo-Cuatrimestre\Carbone.Lucas.2A\Clase20.Test\obj\Debug\Clase20.Test.pdb

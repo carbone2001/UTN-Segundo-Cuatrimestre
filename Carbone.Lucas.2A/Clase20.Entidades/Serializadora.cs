@@ -12,6 +12,7 @@ namespace Clase20.Entidades
         {
             return xml.Guardar(Environment.GetFolderPath(Environment.SpecialFolder.Desktop)+"\\archivoXML.xml");
         }
+        
         public static bool Deserealizar(IXML xml, out object obj)
         {
             return xml.Leer(Environment.GetFolderPath(Environment.SpecialFolder.Desktop) + "\\archivoXML.xml",out obj);

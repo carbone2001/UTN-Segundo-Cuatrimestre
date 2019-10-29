@@ -15,7 +15,7 @@ namespace Clase20.Entidades
         {
 
         }
-        public Empleado(int legajo, double sueldo):this()
+        public Empleado(string nombre,string apellido,int edad,int legajo, double sueldo):base(nombre,apellido,edad)
         {
             this.legajo = legajo;
             this.sueldo = sueldo;

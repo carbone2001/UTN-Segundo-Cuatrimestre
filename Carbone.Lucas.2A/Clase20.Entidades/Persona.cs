@@ -9,6 +9,8 @@ using System.IO;
 
 namespace Clase20.Entidades
 {
+    [XmlInclude(typeof(Alumno))]
+    [XmlInclude(typeof(Empleado))]
     public class Persona:IXML
     {
         public string nombre;
