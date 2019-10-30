@@ -7,6 +7,7 @@ using Clase20.Entidades;
 using System.Xml.Serialization;
 using System.Xml;
 using System.IO;
+using System.Data.SqlClient;
 namespace Clase20.Test
 {
     class Program
@@ -33,16 +34,14 @@ namespace Clase20.Test
             TextWriter tw = new StreamWriter(Environment.GetFolderPath(Environment.SpecialFolder.Desktop)+"\\ListaPersonas.xml");
             xmlS.Serialize(tw, listaPersonas);
             tw.Close();
-            
 
             TextReader tr = new StreamReader(Environment.GetFolderPath(Environment.SpecialFolder.Desktop) + "\\ListaPersonas.xml");
             listaPersonasAux = (List<Persona>)xmlS.Deserialize(tr);
             tr.Close();
 
-
-
             Console.ReadLine();
 
+            SqlConnection sql = new SqlConnection(Properties.Settings.Default.conexion);
 
             /*//Persona individual
             Persona p = new Persona("Juan", "Perez", 20);

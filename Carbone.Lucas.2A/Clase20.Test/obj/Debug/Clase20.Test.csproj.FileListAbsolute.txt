@@ -17,3 +17,13 @@ C:\Users\Lucas\Escritorio En SSD\UTN-Segundo-Cuatrimestre\Carbone.Lucas.2A\Clase
 C:\Users\Lucas\Escritorio En SSD\UTN-Segundo-Cuatrimestre\Carbone.Lucas.2A\Clase20.Test\obj\Debug\Clase20.Test.csproj.CopyComplete
 C:\Users\Lucas\Escritorio En SSD\UTN-Segundo-Cuatrimestre\Carbone.Lucas.2A\Clase20.Test\obj\Debug\Clase20.Test.exe
 C:\Users\Lucas\Escritorio En SSD\UTN-Segundo-Cuatrimestre\Carbone.Lucas.2A\Clase20.Test\obj\Debug\Clase20.Test.pdb
+D:\VisualStudio\UTN-Segundo-Cuatrimestre\Carbone.Lucas.2A\Clase20.Test\bin\Debug\Clase20.Test.exe.config
+D:\VisualStudio\UTN-Segundo-Cuatrimestre\Carbone.Lucas.2A\Clase20.Test\bin\Debug\Clase20.Test.exe
+D:\VisualStudio\UTN-Segundo-Cuatrimestre\Carbone.Lucas.2A\Clase20.Test\bin\Debug\Clase20.Test.pdb
+D:\VisualStudio\UTN-Segundo-Cuatrimestre\Carbone.Lucas.2A\Clase20.Test\bin\Debug\Clase20.Entidades.dll
+D:\VisualStudio\UTN-Segundo-Cuatrimestre\Carbone.Lucas.2A\Clase20.Test\bin\Debug\Clase20.Entidades.pdb
+D:\VisualStudio\UTN-Segundo-Cuatrimestre\Carbone.Lucas.2A\Clase20.Test\obj\Debug\Clase20.Test.csprojAssemblyReference.cache
+D:\VisualStudio\UTN-Segundo-Cuatrimestre\Carbone.Lucas.2A\Clase20.Test\obj\Debug\Clase20.Test.csproj.CoreCompileInputs.cache
+D:\VisualStudio\UTN-Segundo-Cuatrimestre\Carbone.Lucas.2A\Clase20.Test\obj\Debug\Clase20.Test.csproj.CopyComplete
+D:\VisualStudio\UTN-Segundo-Cuatrimestre\Carbone.Lucas.2A\Clase20.Test\obj\Debug\Clase20.Test.exe
+D:\VisualStudio\UTN-Segundo-Cuatrimestre\Carbone.Lucas.2A\Clase20.Test\obj\Debug\Clase20.Test.pdb
