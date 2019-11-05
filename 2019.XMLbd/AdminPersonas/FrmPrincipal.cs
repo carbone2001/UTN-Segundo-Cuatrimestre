@@ -17,7 +17,7 @@ namespace AdminPersonas
     public partial class FrmPrincipal : Form
     {
         private List<Persona> lista;
-
+        private DataTable tablaPersonas;
         public FrmPrincipal()
         {
             InitializeComponent();
@@ -25,6 +25,8 @@ namespace AdminPersonas
             this.IsMdiContainer = true;
             this.WindowState = FormWindowState.Maximized;
             this.lista = new List<Persona>();
+            this.tablaPersonas = new DataTable("Personas");
+            this.CargarDataTable();
         }
 
         private void cargarArchivoToolStripMenuItem_Click(object sender, EventArgs e)
@@ -88,31 +90,56 @@ namespace AdminPersonas
         {
             try
             {
-                SqlConnection sql = new SqlConnection(Properties.Settings.Default.Conexion);
-                sql.Open();
-                MessageBox.Show("Se pudo abrir el sql");
-                //sql.Close();
-                SqlCommand sqlCom = new SqlCommand();
-                sqlCom.Connection = sql;
-                sqlCom.CommandType = CommandType.Text;
-                sqlCom.CommandText = "SELECT TOP 1000 [id],[nombre],[apellido],[edad]FROM[personas_bd].[dbo].[personas]";
-                SqlDataReader sqlDataReader = sqlCom.ExecuteReader();
-                int i = 0;
-                while (sqlDataReader.Read() != false);
-                {
-                    Object p = sqlDataReader[i];
-                    MessageBox.Show(p.ToString());
-                    i++;
-                }
-                sqlDataReader.Close();
-                sqlCom.Clone();
-                 
-
+                SqlConnection sqlConexion;
+                sqlConexion = new SqlConnection(Properties.Settings.Default.Conexion);
+                sqlConexion.Open();
+                MessageBox.Show("Se pudo establecer conexion con el sql");
+                sqlConexion.Close();
             }
             catch (Exception ee)
             {
                 MessageBox.Show(ee.Message);
             }
+        }
+
+        private void traerTodosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            SqlConnection sqlConexion = new SqlConnection(Properties.Settings.Default.Conexion);
+            sqlConexion.Open();
+            SqlCommand sqlCom = new SqlCommand();
+            sqlCom.Connection = sqlConexion;
+            sqlCom.CommandType = CommandType.Text;
+            //sqlCom.CommandText = "SELECT TOP 1000 [id],[nombre],[apellido],[edad]FROM[personas_bd].[dbo].[personas]";
+            sqlCom.CommandText = "SELECT * FROM Personas";
+            SqlDataReader sqlDataReader = sqlCom.ExecuteReader();
+            while (sqlDataReader.Read() != false)
+            {
+                this.lista.Add(new Persona((string)sqlDataReader["nombre"].ToString(),sqlDataReader["apellido"].ToString(),int.Parse(sqlDataReader["edad"].ToString())));
+            }
+            sqlDataReader.Close();
+            sqlConexion.Close();
+        }
+        private void CargarDataTable()
+        {
+            try
+            {
+                SqlConnection sqlConexion = new SqlConnection(Properties.Settings.Default.Conexion);
+                sqlConexion.Open();
+                SqlCommand sqlCom = new SqlCommand();
+                sqlCom.Connection = sqlConexion;
+                sqlCom.CommandType = CommandType.Text;
+                //sqlCom.CommandText = "SELECT TOP 1000 [id],[nombre],[apellido],[edad]FROM[personas_bd].[dbo].[personas]";
+                sqlCom.CommandText = "SELECT * FROM Personas";
+                SqlDataReader sqlDataReader = sqlCom.ExecuteReader();
+                this.tablaPersonas.Load(sqlDataReader);
+                sqlDataReader.Close();
+                sqlConexion.Close();
+            }
+            catch (Exception e)
+            {
+                MessageBox.Show(e.Message);
+            }
+
         }
     }
 }

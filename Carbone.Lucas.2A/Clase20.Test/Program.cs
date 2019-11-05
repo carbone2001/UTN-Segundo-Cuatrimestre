@@ -41,7 +41,28 @@ namespace Clase20.Test
 
             Console.ReadLine();
 
-            SqlConnection sql = new SqlConnection(Properties.Settings.Default.conexion);
+            SqlConnection sql = new SqlConnection(Properties.Settings.Default.conexionpc11);
+            sql.Open();
+            SqlCommand command = new SqlCommand();
+            command.Connection = sql;
+            command.CommandType = System.Data.CommandType.Text;
+            //command.CommandText = "SELECT TOP 1000 [id],[nombre],[apellido],[edad] FROM[personas_bd].[dbo].[personas]";
+            command.CommandText = "SELECT * FROM Personas";
+
+
+            SqlDataReader sqlReader = command.ExecuteReader();
+            int i = 0;
+            while(sqlReader.Read() != false)
+            {
+                Persona a =sqlReader[i];
+                Console.WriteLine(a.ToString());
+                i++;
+            }
+            sqlReader.Close();
+            sql.Close();
+
+
+
 
             /*//Persona individual
             Persona p = new Persona("Juan", "Perez", 20);

@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using Entidades;
+using System.Data.SqlClient;
 namespace AdminPersonas
 {
     public partial class frmVisorPersona : Form
@@ -44,8 +45,26 @@ namespace AdminPersonas
             frm.ShowDialog();
             if (frm.DialogResult == DialogResult.OK)
             {
+                StringBuilder str = new StringBuilder();
+                SqlCommand cmd = new SqlCommand();
+                SqlConnection conexion = new SqlConnection(Properties.Settings.Default.Conexion);
+                conexion.Open();
                 this.listaPersonas.Add(frm.Persona);
                 this.lstVisor.Items.Add(frm.Persona);
+                try
+                {
+                    str.AppendFormat("insert into Personas(nombre,apellido,edad) values ('{0}','{1}','{2}')",frm.Persona.nombre,frm.Persona.apellido,frm.Persona.edad);
+                    cmd.Connection = conexion;
+                    cmd.CommandType = CommandType.Text;
+                    cmd.CommandText = str.ToString();
+                    cmd.ExecuteNonQuery();
+                    conexion.Close();
+                }
+                catch (Exception x)
+                {
+                    conexion.Close();
+                    MessageBox.Show(x.Message);
+                }
             }
 
         }
@@ -54,6 +73,11 @@ namespace AdminPersonas
         {
             if(!Object.Equals(this.lstVisor.SelectedItem, null))
             {
+                StringBuilder str = new StringBuilder();
+                SqlCommand cmd = new SqlCommand();
+                SqlConnection conexion = new SqlConnection(Properties.Settings.Default.Conexion);
+                conexion.Open();
+
                 frmPersona frm = new frmPersona((Persona)this.lstVisor.SelectedItem);
                 frm.StartPosition = FormStartPosition.CenterScreen;
 
@@ -63,18 +87,55 @@ namespace AdminPersonas
                 {
                     this.lstVisor.SelectedItem = frm.Persona;
                     //this.ListaDePersonas.
+
+                    try
+                    {
+                        str.AppendFormat("update Personas set nombre='{0}',apellido='{1}',edad={2} where id={3}", frm.Persona.nombre, frm.Persona.apellido, frm.Persona.edad, this.lstVisor.SelectedIndex + 1);
+                        cmd.Connection = conexion;
+                        cmd.CommandType = CommandType.Text;
+                        cmd.CommandText = str.ToString();
+                        cmd.ExecuteNonQuery();
+                        conexion.Close();
+                    }
+                    catch (Exception x)
+                    {
+                        conexion.Close();
+                        MessageBox.Show(x.Message);
+                    }
                 }
+
+
+
                 this.ActualizarLista();
             }
         }
 
         private void btnEliminar_Click(object sender, EventArgs e)
         {
+            StringBuilder str = new StringBuilder();
+            SqlCommand cmd = new SqlCommand();
+            SqlConnection conexion = new SqlConnection(Properties.Settings.Default.Conexion);
+            conexion.Open();
+
             frmPersona frm = new frmPersona();
             frm.StartPosition = FormStartPosition.CenterScreen;
 
             //implementar
             this.listaPersonas.Remove((Persona)this.lstVisor.SelectedItem);
+            try
+            {
+                str.AppendFormat("delete from Personas where id={0}",this.lstVisor.SelectedIndex + 1);
+                cmd.Connection = conexion;
+                cmd.CommandType = CommandType.Text;
+                cmd.CommandText = str.ToString();
+                cmd.ExecuteNonQuery();
+                conexion.Close();
+            }
+            catch (Exception x)
+            {
+                conexion.Close();
+                MessageBox.Show(x.Message);
+            }
             this.ActualizarLista();
         }
 

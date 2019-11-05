@@ -36,6 +36,7 @@
             this.salirToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.bDToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.conectarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.traerTodosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -92,7 +93,8 @@
             // bDToolStripMenuItem
             // 
             this.bDToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.conectarToolStripMenuItem});
+            this.conectarToolStripMenuItem,
+            this.traerTodosToolStripMenuItem});
             this.bDToolStripMenuItem.Name = "bDToolStripMenuItem";
             this.bDToolStripMenuItem.Size = new System.Drawing.Size(34, 20);
             this.bDToolStripMenuItem.Text = "BD";
@@ -103,6 +105,13 @@
             this.conectarToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.conectarToolStripMenuItem.Text = "Conectar";
             this.conectarToolStripMenuItem.Click += new System.EventHandler(this.conectarToolStripMenuItem_Click);
+            // 
+            // traerTodosToolStripMenuItem
+            // 
+            this.traerTodosToolStripMenuItem.Name = "traerTodosToolStripMenuItem";
+            this.traerTodosToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.traerTodosToolStripMenuItem.Text = "Traer Todos";
+            this.traerTodosToolStripMenuItem.Click += new System.EventHandler(this.traerTodosToolStripMenuItem_Click);
             // 
             // FrmPrincipal
             // 
@@ -130,6 +139,7 @@
         private System.Windows.Forms.ToolStripMenuItem salirToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem bDToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem conectarToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem traerTodosToolStripMenuItem;
     }
 }
 

@@ -26,20 +26,22 @@ namespace Clase20.Test.Properties {
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
-        public string c {
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=LAB4PC05\\SQLEXPRESS;Initial Catalog=personas_bd;Integrated Security=T" +
+            "rue")]
+        public string conexion {
             get {
-                return ((string)(this["c"]));
+                return ((string)(this["conexion"]));
             }
         }
         
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
-        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=LAB4PC05\\SQLEXPRESS;Initial Catalog=personas_bd;Integrated Security=T" +
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=LAB4PC11\\SQLEXPRESS;Initial Catalog=personas_bd;Integrated Security=T" +
             "rue")]
-        public string conexion {
+        public string conexionpc11 {
             get {
-                return ((string)(this["conexion"]));
+                return ((string)(this["conexionpc11"]));
             }
         }
     }
