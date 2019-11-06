@@ -83,14 +83,13 @@
             this.Controls.Add(this.lstVisor);
             this.Name = "frmVisorPersona";
             this.Text = "frmVisorPersona";
-            this.Load += new System.EventHandler(this.frmVisorPersona_Load);
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        private System.Windows.Forms.ListBox lstVisor;
+        protected System.Windows.Forms.ListBox lstVisor;
         private System.Windows.Forms.Button btnAgregar;
         private System.Windows.Forms.Button btnModificar;
         private System.Windows.Forms.Button btnEliminar;

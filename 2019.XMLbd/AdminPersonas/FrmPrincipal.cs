@@ -18,6 +18,7 @@ namespace AdminPersonas
     {
         private List<Persona> lista;
         private DataTable tablaPersonas;
+        private SqlDataAdapter dataAdapter;
         public FrmPrincipal()
         {
             InitializeComponent();
@@ -26,7 +27,33 @@ namespace AdminPersonas
             this.WindowState = FormWindowState.Maximized;
             this.lista = new List<Persona>();
             this.tablaPersonas = new DataTable("Personas");
-            this.CargarDataTable();
+
+            SqlConnection sqlConexion;
+            sqlConexion = new SqlConnection(Properties.Settings.Default.Conexion);
+            this.dataAdapter = new SqlDataAdapter("SELECT * FROM Personas", sqlConexion);
+            dataAdapter.Fill(tablaPersonas);
+            dataAdapter.InsertCommand = new SqlCommand("insert into Personas(nombre,apellido,edad) values (@p1,@p2,@p3)", sqlConexion);
+            dataAdapter.UpdateCommand = new SqlCommand("update Personas set nombre=@p1,apellido=@p2,edad=@p3 where id=@p4", sqlConexion);
+            dataAdapter.DeleteCommand = new SqlCommand("delete from Personas where id=@p4",sqlConexion);
+
+            dataAdapter.InsertCommand.Parameters.Add("@p1", SqlDbType.VarChar, 50,"nombre");
+            dataAdapter.InsertCommand.Parameters.Add("@p2", SqlDbType.VarChar, 50, "apellido");
+            dataAdapter.InsertCommand.Parameters.Add("@p3", SqlDbType.Int,2,"edad");
+            dataAdapter.InsertCommand.Parameters.Add("@p4", SqlDbType.Int,2, "id");
+
+            dataAdapter.UpdateCommand.Parameters.Add("@p1", SqlDbType.VarChar, 50, "nombre");
+            dataAdapter.UpdateCommand.Parameters.Add("@p2", SqlDbType.VarChar, 50, "apellido");
+            dataAdapter.UpdateCommand.Parameters.Add("@p3", SqlDbType.Int, 2, "edad");
+            dataAdapter.UpdateCommand.Parameters.Add("@p4", SqlDbType.Int, 2, "id");
+
+            dataAdapter.DeleteCommand.Parameters.Add("@p1", SqlDbType.VarChar, 50, "nombre");
+            dataAdapter.DeleteCommand.Parameters.Add("@p2", SqlDbType.VarChar, 50, "apellido");
+            dataAdapter.DeleteCommand.Parameters.Add("@p3", SqlDbType.Int, 2, "edad");
+            dataAdapter.DeleteCommand.Parameters.Add("@p4", SqlDbType.Int, 2, "id");
+
+
+
+            //this.CargarDataTable();
         }
 
         private void cargarArchivoToolStripMenuItem_Click(object sender, EventArgs e)
@@ -71,13 +98,14 @@ namespace AdminPersonas
 
         private void visualizarToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            frmVisorPersona frm = new frmVisorPersona(this.lista);
-
+            //frmVisorPersona frm = new frmVisorPersona(this.lista);
+            frmVisorDataTable frm = new frmVisorDataTable(tablaPersonas);
             frm.StartPosition = FormStartPosition.CenterScreen;
 
             //implementar
             frm.Show();
-            this.lista = frm.ListaDePersonas;
+            //this.tablaPersonas = frm.DataTable;
+            //this.lista = frm.ListaDePersonas;
         }
 
         private void salirToolStripMenuItem_Click(object sender, EventArgs e)
@@ -140,6 +168,11 @@ namespace AdminPersonas
                 MessageBox.Show(e.Message);
             }
 
+        }
+
+        private void sincronizarToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            dataAdapter.Update(tablaPersonas);
         }
     }
 }

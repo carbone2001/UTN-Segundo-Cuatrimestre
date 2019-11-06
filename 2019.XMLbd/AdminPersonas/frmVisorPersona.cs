@@ -30,13 +30,13 @@ namespace AdminPersonas
             get { return this.listaPersonas; }
             set { this.listaPersonas = value; }
         }
-        public void ActualizarLista()
+        protected virtual void ActualizarLista()
         {
             this.lstVisor.Items.Clear();
             foreach (Persona x in this.listaPersonas)
                 this.lstVisor.Items.Add(x);
         }
-        private void btnAgregar_Click(object sender, EventArgs e)
+        protected virtual void btnAgregar_Click(object sender, EventArgs e)
         {
             frmPersona frm = new frmPersona();
             frm.StartPosition = FormStartPosition.CenterScreen;
@@ -69,7 +69,7 @@ namespace AdminPersonas
 
         }
 
-        private void btnModificar_Click(object sender, EventArgs e)
+        protected virtual void btnModificar_Click(object sender, EventArgs e)
         {
             if(!Object.Equals(this.lstVisor.SelectedItem, null))
             {
@@ -110,7 +110,7 @@ namespace AdminPersonas
             }
         }
 
-        private void btnEliminar_Click(object sender, EventArgs e)
+        protected virtual void btnEliminar_Click(object sender, EventArgs e)
         {
             StringBuilder str = new StringBuilder();
             SqlCommand cmd = new SqlCommand();
@@ -139,9 +139,6 @@ namespace AdminPersonas
             this.ActualizarLista();
         }
 
-        private void frmVisorPersona_Load(object sender, EventArgs e)
-        {
-
-        }
+        
     }
 }
