@@ -45,31 +45,49 @@ namespace AdminPersonas
             this.lstVisor.Items.Clear();
             for (int i = 0; i < dataTable.Rows.Count; i++)
             {
-                if(dataTable.Rows[i].RowState != DataRowState.Deleted)
+                if(dataTable.Rows[i].RowState == DataRowState.Deleted)
+                {
+                    this.lstVisor.Items.Add("Elemento Borrado");
+                    continue;
+                }
                 this.lstVisor.Items.Add(String.Format("{0} - {1} - {2} - {3} ", dataTable.Rows[i][dataTable.Columns[0]], dataTable.Rows[i][dataTable.Columns[1]], dataTable.Rows[i][dataTable.Columns[2]], dataTable.Rows[i][dataTable.Columns[3]]));
             }
         }
         protected override void btnModificar_Click(object sender, EventArgs e)
         {
-            DataRow datoFila = this.dataTable.Rows[this.lstVisor.SelectedIndex];
-            if(datoFila.RowState != DataRowState.Deleted)
+            try
             {
-                frmPersona frm = new frmPersona(new Entidades.Persona(datoFila["nombre"].ToString(), datoFila["apellido"].ToString(), int.Parse(datoFila["edad"].ToString())));
-                frm.ShowDialog();
-                if (frm.DialogResult == DialogResult.OK)
+                DataRow datoFila = this.dataTable.Rows[this.lstVisor.SelectedIndex];
+                if (datoFila.RowState != DataRowState.Deleted)
                 {
-                    datoFila["nombre"] = frm.Persona.nombre;
-                    datoFila["apellido"] = frm.Persona.apellido;
-                    datoFila["edad"] = frm.Persona.edad;
+                    frmPersona frm = new frmPersona(new Entidades.Persona(datoFila["nombre"].ToString(), datoFila["apellido"].ToString(), int.Parse(datoFila["edad"].ToString())));
+                    frm.ShowDialog();
+                    if (frm.DialogResult == DialogResult.OK)
+                    {
+                        datoFila["nombre"] = frm.Persona.nombre;
+                        datoFila["apellido"] = frm.Persona.apellido;
+                        datoFila["edad"] = frm.Persona.edad;
+                    }
                 }
+
+                this.ActualizarLista();
             }
-            
-            this.ActualizarLista();
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
         }
         protected override void btnEliminar_Click(object sender, EventArgs e)
         {
-            this.dataTable.Rows[this.lstVisor.SelectedIndex].Delete();
-            this.ActualizarLista();
+            try
+            {
+                this.dataTable.Rows[this.lstVisor.SelectedIndex].Delete();
+                this.ActualizarLista();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
         }
     }
 }

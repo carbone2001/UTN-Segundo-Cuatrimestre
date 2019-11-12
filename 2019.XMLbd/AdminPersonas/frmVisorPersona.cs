@@ -121,9 +121,10 @@ namespace AdminPersonas
             frm.StartPosition = FormStartPosition.CenterScreen;
 
             //implementar
-            this.listaPersonas.Remove((Persona)this.lstVisor.SelectedItem);
+            
             try
             {
+                this.listaPersonas.Remove((Persona)this.lstVisor.SelectedItem);
                 str.AppendFormat("delete from Personas where id={0}",this.lstVisor.SelectedIndex + 1);
                 cmd.Connection = conexion;
                 cmd.CommandType = CommandType.Text;
@@ -139,6 +140,20 @@ namespace AdminPersonas
             this.ActualizarLista();
         }
 
-        
+        private void frmVisorPersona_Load(object sender, EventArgs e)
+        {
+            this.btnAgregar.Click += new EventHandler(btnAgregar_Click);
+        }
+
+        private void lstVisor_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            //Quita el modificador si existe
+            this.btnModificar.Click -= new EventHandler(btnModificar_Click);
+            this.btnEliminar.Click -= new EventHandler(btnEliminar_Click);
+
+            //los agrega
+            this.btnModificar.Click += new EventHandler(btnModificar_Click);
+            this.btnEliminar.Click += new EventHandler(btnEliminar_Click);
+        }
     }
 }

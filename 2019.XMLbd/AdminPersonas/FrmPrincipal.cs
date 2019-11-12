@@ -39,16 +39,16 @@ namespace AdminPersonas
             dataAdapter.InsertCommand.Parameters.Add("@p1", SqlDbType.VarChar, 50,"nombre");
             dataAdapter.InsertCommand.Parameters.Add("@p2", SqlDbType.VarChar, 50, "apellido");
             dataAdapter.InsertCommand.Parameters.Add("@p3", SqlDbType.Int,2,"edad");
-            dataAdapter.InsertCommand.Parameters.Add("@p4", SqlDbType.Int,2, "id");
+            //dataAdapter.InsertCommand.Parameters.Add("@p4", SqlDbType.Int,2, "id");
 
             dataAdapter.UpdateCommand.Parameters.Add("@p1", SqlDbType.VarChar, 50, "nombre");
             dataAdapter.UpdateCommand.Parameters.Add("@p2", SqlDbType.VarChar, 50, "apellido");
             dataAdapter.UpdateCommand.Parameters.Add("@p3", SqlDbType.Int, 2, "edad");
             dataAdapter.UpdateCommand.Parameters.Add("@p4", SqlDbType.Int, 2, "id");
 
-            dataAdapter.DeleteCommand.Parameters.Add("@p1", SqlDbType.VarChar, 50, "nombre");
-            dataAdapter.DeleteCommand.Parameters.Add("@p2", SqlDbType.VarChar, 50, "apellido");
-            dataAdapter.DeleteCommand.Parameters.Add("@p3", SqlDbType.Int, 2, "edad");
+            //dataAdapter.DeleteCommand.Parameters.Add("@p1", SqlDbType.VarChar, 50, "nombre");
+            //dataAdapter.DeleteCommand.Parameters.Add("@p2", SqlDbType.VarChar, 50, "apellido");
+            //dataAdapter.DeleteCommand.Parameters.Add("@p3", SqlDbType.Int, 2, "edad");
             dataAdapter.DeleteCommand.Parameters.Add("@p4", SqlDbType.Int, 2, "id");
 
 
@@ -111,6 +111,7 @@ namespace AdminPersonas
         private void salirToolStripMenuItem_Click(object sender, EventArgs e)
         {
             //implementar
+            dataAdapter.Update(tablaPersonas);
             this.Close();
         }
 
