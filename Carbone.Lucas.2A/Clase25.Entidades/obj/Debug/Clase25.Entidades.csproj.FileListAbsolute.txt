@@ -1,0 +1,6 @@
+D:\VisualStudio\UTN-Segundo-Cuatrimestre\Carbone.Lucas.2A\Clase25.Entidades\bin\Debug\Clase25.Entidades.dll
+D:\VisualStudio\UTN-Segundo-Cuatrimestre\Carbone.Lucas.2A\Clase25.Entidades\bin\Debug\Clase25.Entidades.pdb
+D:\VisualStudio\UTN-Segundo-Cuatrimestre\Carbone.Lucas.2A\Clase25.Entidades\obj\Debug\Clase25.Entidades.csprojAssemblyReference.cache
+D:\VisualStudio\UTN-Segundo-Cuatrimestre\Carbone.Lucas.2A\Clase25.Entidades\obj\Debug\Clase25.Entidades.csproj.CoreCompileInputs.cache
+D:\VisualStudio\UTN-Segundo-Cuatrimestre\Carbone.Lucas.2A\Clase25.Entidades\obj\Debug\Clase25.Entidades.dll
+D:\VisualStudio\UTN-Segundo-Cuatrimestre\Carbone.Lucas.2A\Clase25.Entidades\obj\Debug\Clase25.Entidades.pdb

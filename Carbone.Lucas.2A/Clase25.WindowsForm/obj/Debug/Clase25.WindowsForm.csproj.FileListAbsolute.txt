@@ -1,0 +1,13 @@
+D:\VisualStudio\UTN-Segundo-Cuatrimestre\Carbone.Lucas.2A\Clase25.WindowsForm\bin\Debug\Clase25.WindowsForm.exe.config
+D:\VisualStudio\UTN-Segundo-Cuatrimestre\Carbone.Lucas.2A\Clase25.WindowsForm\bin\Debug\Clase25.WindowsForm.exe
+D:\VisualStudio\UTN-Segundo-Cuatrimestre\Carbone.Lucas.2A\Clase25.WindowsForm\bin\Debug\Clase25.WindowsForm.pdb
+D:\VisualStudio\UTN-Segundo-Cuatrimestre\Carbone.Lucas.2A\Clase25.WindowsForm\bin\Debug\Clase25.Entidades.dll
+D:\VisualStudio\UTN-Segundo-Cuatrimestre\Carbone.Lucas.2A\Clase25.WindowsForm\bin\Debug\Clase25.Entidades.pdb
+D:\VisualStudio\UTN-Segundo-Cuatrimestre\Carbone.Lucas.2A\Clase25.WindowsForm\obj\Debug\Clase25.WindowsForm.csprojAssemblyReference.cache
+D:\VisualStudio\UTN-Segundo-Cuatrimestre\Carbone.Lucas.2A\Clase25.WindowsForm\obj\Debug\Clase25.WindowsForm.FrmEmpleado.resources
+D:\VisualStudio\UTN-Segundo-Cuatrimestre\Carbone.Lucas.2A\Clase25.WindowsForm\obj\Debug\Clase25.WindowsForm.Properties.Resources.resources
+D:\VisualStudio\UTN-Segundo-Cuatrimestre\Carbone.Lucas.2A\Clase25.WindowsForm\obj\Debug\Clase25.WindowsForm.csproj.GenerateResource.cache
+D:\VisualStudio\UTN-Segundo-Cuatrimestre\Carbone.Lucas.2A\Clase25.WindowsForm\obj\Debug\Clase25.WindowsForm.csproj.CoreCompileInputs.cache
+D:\VisualStudio\UTN-Segundo-Cuatrimestre\Carbone.Lucas.2A\Clase25.WindowsForm\obj\Debug\Clase25.WindowsForm.csproj.CopyComplete
+D:\VisualStudio\UTN-Segundo-Cuatrimestre\Carbone.Lucas.2A\Clase25.WindowsForm\obj\Debug\Clase25.WindowsForm.exe
+D:\VisualStudio\UTN-Segundo-Cuatrimestre\Carbone.Lucas.2A\Clase25.WindowsForm\obj\Debug\Clase25.WindowsForm.pdb

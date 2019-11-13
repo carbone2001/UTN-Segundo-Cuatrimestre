@@ -11,12 +11,13 @@ using System.Xml.Serialization;
 using System.IO;
 using System.Data.SqlClient;
 using Entidades;
-
+using System.Threading;
 namespace AdminPersonas
 {
     public partial class FrmPrincipal : Form
     {
         private List<Persona> lista;
+        Thread hiloActualizar;
         private DataTable tablaPersonas;
         private SqlDataAdapter dataAdapter;
         public FrmPrincipal()
@@ -50,10 +51,21 @@ namespace AdminPersonas
             //dataAdapter.DeleteCommand.Parameters.Add("@p2", SqlDbType.VarChar, 50, "apellido");
             //dataAdapter.DeleteCommand.Parameters.Add("@p3", SqlDbType.Int, 2, "edad");
             dataAdapter.DeleteCommand.Parameters.Add("@p4", SqlDbType.Int, 2, "id");
+            this.hiloActualizar = new Thread(UpdateAdapter);
+            hiloActualizar.Start();
+            
 
 
 
             //this.CargarDataTable();
+        }
+        private void UpdateAdapter()
+        {
+            while(true)
+            {
+                Thread.Sleep(5000);
+                dataAdapter.Update(tablaPersonas);
+            }
         }
 
         private void cargarArchivoToolStripMenuItem_Click(object sender, EventArgs e)
@@ -104,6 +116,8 @@ namespace AdminPersonas
 
             //implementar
             frm.Show();
+            Thread updateAdapter = new Thread(UpdateAdapter);
+            updateAdapter.Start();
             //this.tablaPersonas = frm.DataTable;
             //this.lista = frm.ListaDePersonas;
         }
@@ -111,6 +125,7 @@ namespace AdminPersonas
         private void salirToolStripMenuItem_Click(object sender, EventArgs e)
         {
             //implementar
+            this.hiloActualizar.Abort();
             dataAdapter.Update(tablaPersonas);
             this.Close();
         }
