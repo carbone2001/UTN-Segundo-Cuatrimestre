@@ -54,8 +54,8 @@ namespace Clase20.Test
             int i = 0;
             while(sqlReader.Read() != false)
             {
-                Persona a =sqlReader[i];
-                Console.WriteLine(a.ToString());
+                //Persona a =sqlReader[i];
+                //Console.WriteLine(a.ToString());
                 i++;
             }
             sqlReader.Close();

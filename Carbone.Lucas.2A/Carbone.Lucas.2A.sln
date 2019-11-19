@@ -135,6 +135,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clase25.Test", "Clase25.Tes
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clase25.WindowsForm", "Clase25.WindowsForm\Clase25.WindowsForm.csproj", "{90C6E351-57B4-4B51-B99D-16EFF0269EDD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clase26.EntidadesTest", "Clase26.Entidades\Clase26.EntidadesTest.csproj", "{DE5BBE4B-CBEA-4A0B-8405-EEC0B93B9A19}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clase26.Consola", "Clase26.Consola\Clase26.Consola.csproj", "{A9EFD39F-543A-4619-995A-B6AD766BD694}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -405,6 +409,14 @@ Global
 		{90C6E351-57B4-4B51-B99D-16EFF0269EDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{90C6E351-57B4-4B51-B99D-16EFF0269EDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{90C6E351-57B4-4B51-B99D-16EFF0269EDD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE5BBE4B-CBEA-4A0B-8405-EEC0B93B9A19}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE5BBE4B-CBEA-4A0B-8405-EEC0B93B9A19}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE5BBE4B-CBEA-4A0B-8405-EEC0B93B9A19}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE5BBE4B-CBEA-4A0B-8405-EEC0B93B9A19}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A9EFD39F-543A-4619-995A-B6AD766BD694}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9EFD39F-543A-4619-995A-B6AD766BD694}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9EFD39F-543A-4619-995A-B6AD766BD694}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9EFD39F-543A-4619-995A-B6AD766BD694}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

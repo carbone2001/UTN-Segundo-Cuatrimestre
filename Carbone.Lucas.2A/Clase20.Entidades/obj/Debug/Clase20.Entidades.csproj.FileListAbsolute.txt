@@ -9,9 +9,3 @@ C:\Users\Lucas\Escritorio En SSD\UTN-Segundo-Cuatrimestre\Carbone.Lucas.2A\Clase
 C:\Users\Lucas\Escritorio En SSD\UTN-Segundo-Cuatrimestre\Carbone.Lucas.2A\Clase20.Entidades\obj\Debug\Clase20.Entidades.csprojAssemblyReference.cache
 C:\Users\Lucas\Escritorio En SSD\UTN-Segundo-Cuatrimestre\Carbone.Lucas.2A\Clase20.Entidades\obj\Debug\Clase20.Entidades.dll
 C:\Users\Lucas\Escritorio En SSD\UTN-Segundo-Cuatrimestre\Carbone.Lucas.2A\Clase20.Entidades\obj\Debug\Clase20.Entidades.pdb
-D:\VisualStudio\UTN-Segundo-Cuatrimestre\Carbone.Lucas.2A\Clase20.Entidades\bin\Debug\Clase20.Entidades.dll
-D:\VisualStudio\UTN-Segundo-Cuatrimestre\Carbone.Lucas.2A\Clase20.Entidades\bin\Debug\Clase20.Entidades.pdb
-D:\VisualStudio\UTN-Segundo-Cuatrimestre\Carbone.Lucas.2A\Clase20.Entidades\obj\Debug\Clase20.Entidades.csprojAssemblyReference.cache
-D:\VisualStudio\UTN-Segundo-Cuatrimestre\Carbone.Lucas.2A\Clase20.Entidades\obj\Debug\Clase20.Entidades.csproj.CoreCompileInputs.cache
-D:\VisualStudio\UTN-Segundo-Cuatrimestre\Carbone.Lucas.2A\Clase20.Entidades\obj\Debug\Clase20.Entidades.dll
-D:\VisualStudio\UTN-Segundo-Cuatrimestre\Carbone.Lucas.2A\Clase20.Entidades\obj\Debug\Clase20.Entidades.pdb

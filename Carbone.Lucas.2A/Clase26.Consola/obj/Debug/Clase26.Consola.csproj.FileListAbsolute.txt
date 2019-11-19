@@ -1,0 +1,13 @@
+D:\VisualStudio\UTN-Segundo-Cuatrimestre\Carbone.Lucas.2A\Clase26.Consola\obj\Debug\Clase26.Consola.csprojAssemblyReference.cache
+D:\VisualStudio\UTN-Segundo-Cuatrimestre\Carbone.Lucas.2A\Clase26.Consola\obj\Debug\Clase26.Consola.csproj.CoreCompileInputs.cache
+D:\VisualStudio\UTN-Segundo-Cuatrimestre\Carbone.Lucas.2A\Clase26.Consola\bin\Debug\Clase26.Consola.exe.config
+D:\VisualStudio\UTN-Segundo-Cuatrimestre\Carbone.Lucas.2A\Clase26.Consola\bin\Debug\Clase26.Consola.exe
+D:\VisualStudio\UTN-Segundo-Cuatrimestre\Carbone.Lucas.2A\Clase26.Consola\bin\Debug\Clase26.Consola.pdb
+D:\VisualStudio\UTN-Segundo-Cuatrimestre\Carbone.Lucas.2A\Clase26.Consola\bin\Debug\Clase26.Entidades.dll
+D:\VisualStudio\UTN-Segundo-Cuatrimestre\Carbone.Lucas.2A\Clase26.Consola\bin\Debug\Entidades.Externa.dll
+D:\VisualStudio\UTN-Segundo-Cuatrimestre\Carbone.Lucas.2A\Clase26.Consola\bin\Debug\Entidades.Externa.Sellada.dll
+D:\VisualStudio\UTN-Segundo-Cuatrimestre\Carbone.Lucas.2A\Clase26.Consola\bin\Debug\Clase26.Entidades.pdb
+D:\VisualStudio\UTN-Segundo-Cuatrimestre\Carbone.Lucas.2A\Clase26.Consola\obj\Debug\Clase26.Consola.csproj.CopyComplete
+D:\VisualStudio\UTN-Segundo-Cuatrimestre\Carbone.Lucas.2A\Clase26.Consola\obj\Debug\Clase26.Consola.exe
+D:\VisualStudio\UTN-Segundo-Cuatrimestre\Carbone.Lucas.2A\Clase26.Consola\obj\Debug\Clase26.Consola.pdb
+D:\VisualStudio\UTN-Segundo-Cuatrimestre\Carbone.Lucas.2A\Clase26.Consola\bin\Debug\Clase26.Entidades.dll.config
